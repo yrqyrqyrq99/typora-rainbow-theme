@@ -1,0 +1,458 @@
+@font-face {
+  font-family: 'Resource Han Rounded CN';
+  font-style: normal;
+  src: local('Resource Han Rounded CN')/*, url('rainbow/Resource_Han_Rounded_CN_Regular.ttf') format('ttf')*/;
+  line-height: 1.6;
+}
+
+/* 全局属性 */
+:root{
+  /* --select-text-bg-color: #e49123; */
+  --bg-color:  #FFFFFF;                   /*change background*/
+  --text-color: #333333;                  /*change text color*/
+  --md-char-color: #C7C5C5;               /*change color of meta characetrs like `*` in markdown */
+  --meta-content-color: #5b808d;          /*change color of meta contents like image text or link address in markdown */
+
+  --primary-color: #428bca;               /* color of primary buttons */
+  --primary-btn-border-color: #285e8e;
+  --primary-btn-text-color: #fff;
+
+  --window-border: 1px solid #eee;        /*border for sidebar, etc*/
+
+  --active-file-bg-color: #ecf6f2;           /*background color if list item in file tree or file list*/
+  --active-file-text-color:#202020;
+  --active-file-border-color: #6B6B6B;
+
+  --table-head-color:#d9ede5;
+  --table-even-row-color:#f8fcfa;
+	--deep-theme-color: #4eb289;
+  --code-block-bg-color: #253137;
+
+  --side-bar-bg-color: var(--bg-color);     /*change background of sidebar*/
+  --item-hover-bg-color: rgba(229, 229, 229, 0.59); /*background of control items when hover, like menu in sidebar*/
+  --item-hover-text-color: inherit;
+  --monospace: monospace;                   /*monospace font for codes, fences*/
+}
+::selection {
+	background:#b981d1;
+	color:white
+}
+::-moz-selection {
+	background:#b981d1;
+	color:white
+}
+::-webkit-selection {
+	background:#b981d1;
+	color:white
+}
+
+body {
+	background-color: #FFFFFF;
+  font-family: 'Resource Han Rounded CN';
+  font-size: 18px;
+	font-weight: normal;
+	line-height: 28px;
+	letter-spacing: 0;
+  margin: 0;
+}
+
+#write {
+  max-width: 914px;
+  font-size: 18px;
+  text-align: left;
+  letter-spacing: 0px;
+  font-family: "Resource Han Rounded CN", "Microsoft YaHei", sans-serif;
+}
+
+/* 段落 */
+#write p {
+  font-size: 18px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin: 0;
+  line-height: 30px;
+  color: black;
+}
+
+/*  task list 对齐 */
+#write input[type="checkbox"] {
+  margin-top: calc(1em - 2px);
+  margin-right: 5px;
+  left: -3px;
+}
+
+/* 标题 */
+#write h1 *,
+#write h2 *,
+#write h3 *,
+#write h4 *,
+#write h5 *,
+#write h6 * {
+  margin: 1em 0;
+  padding: 0px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
+#write h1:before,
+#write h1:after {
+    content: "";
+    display: block;
+    position: relative;
+    width: 50%;
+    margin: 1.2rem auto;
+}
+#write h1::before {
+  top: -1.2rem;
+  /* border-top: 2px dashed #449BFF; */
+  border-top: 2px dashed #78B4F0;
+}
+#write h1::after {
+  top: 1.2rem;
+  /* border-top: 2px dashed #46D791; */
+  border-bottom: 2px dashed #78DCA0;
+}
+#write h1 {
+  /* margin: 1.2em 0; */
+  font-size: 2.4rem;
+  line-height: 50px;
+  margin: 6rem auto 4rem;
+  text-align: center;
+}
+
+#write h2::before{
+  content: "✔";
+  font-weight: bold;
+  color: #32B4DC;
+  margin-right: 4px
+}
+#write h2 {
+  font-size: 2.2rem;
+  line-height: 46px;
+  margin: 1.2em 0;
+}
+#write h2 span {
+ font-weight: bold;
+ color: #333;
+ padding: 1px 9px 1px;
+}
+
+#write h3 {
+  font-size: 2rem;
+  line-height: 42px;
+  margin: 1.2em 0;
+  padding-left: 16px;
+  border-left: 6px solid #64E6D2;
+}
+
+#write h4 {
+  font-size: 1.8rem;
+  line-height: 38px;
+  margin: 1.2em 0;
+}
+
+#write h5 {
+  font-size: 1.6rem;
+  line-height: 34px;
+  margin: 1.2em 0;
+}
+
+#write h6 {
+  font-size: 1.4rem;
+  line-height: 30px;
+  margin: 1.2em 0;
+}
+
+/* 列表 */
+#write ul,
+#write ol {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  padding-left: 40px;
+  color: black;
+}
+#write ul {
+  list-style-type: circle;
+}
+#write ul ul {
+  list-style-type: square;
+}
+#write ul ul ul {
+  list-style-type: circle;
+}
+#write ul ul ul ul {
+  list-style-type: square;
+}
+#write ol {
+  list-style-type: decimal;
+}
+/* 列表内容 */
+#write li section {
+  font-size: 16px;
+}
+
+/* 粗体 */
+#write strong {
+  color: #3296F0;
+  font-weight: bold;
+}
+
+/* 斜体 */
+#write em {
+  color: #7878FA;
+  font-weight: normal;
+}
+
+/* 引用 */
+#write blockquote {
+  font-family: "霞鹜文楷";
+  margin-bottom: 16px;
+  margin-top: 16px;
+  padding: 10px 10px 10px 20px;
+  font-size: 0.95em;
+  line-height: 30px;
+  background: #FFFCFA;
+  border-left: 5px solid #FFAA1E;
+  color: #6a737d;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+#write blockquote p {
+  line-height: 30px;
+}
+
+/* 超链接 */
+#write a {
+  text-decoration: none;
+  font-weight: normal;
+  /* color: #33CC99; */
+  color: #32C896;
+  border-bottom: 1px solid #32C896;
+}
+
+/* 分割线 */
+#write hr {
+  height: 1px;
+  padding: 0;
+  border: none;
+  text-align: center;
+  background-image: linear-gradient(to right,rgba(231, 93, 109,0.3),rgba(255, 159, 150,0.75),rgba(255, 216, 181,0.3));
+}
+
+/* highlight */
+#write mark {
+	background-color: #E2E2FA;
+  /* background-color: #FADCF0; */
+	border-radius: 2px;
+	color: black;
+	padding: 0 4px;
+	margin: 0 2px;
+}
+
+/* 行内代码 */
+#write code{
+  font-size: 16px;
+  /* color: #FA505A; */
+  color: #FF6EAA;
+  background-color: #f0f0f0;
+}
+
+#write p code,
+#write span code,
+#write li code {
+  word-wrap:break-word;
+  padding: 2px 4px;
+  border-radius: 4px;
+  margin: 2 2px;
+  word-break: break-all;
+}
+
+/* 文章插图 */
+#write img {
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 100%;
+  border-radius: 5px;
+  box-shadow:0px 4px 12px #84A1A8;
+  border: 0px;
+}
+
+#write table tr {
+  border: 0;
+  border-top: 1px solid #ccc;
+  background-color: white;
+}
+#write table tr:nth-child(2n) {
+  background-color: #F8F8F8;
+}
+#write table tr th,
+#write table tr td {
+  font-size: 18px;
+  line-height: 1.5;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  text-align: left;
+}
+#write table tr th {
+  font-weight: bold;
+  background-color: #f0f0f0;
+}
+
+
+/* footnotes mark */
+#write .md-footnote {
+ /* font-weight: bold; */
+ color: #777777;
+ background-color: #F0FFFA;
+}
+#write .md-footnote > .md-text:before {
+ content: '['
+}
+#write .md-footnote > .md-text:after {
+ content: ']'
+}
+
+/* footnotes title */
+span.md-def-name {
+  padding-right: 3ch;
+  padding-left: 1ch;
+  position: relative;
+  font-weight: normal;
+}
+
+
+/* 下角标 */
+#write .md-def-name {
+  padding-right: 1.8ch;
+}
+#write .md-def-name:before {
+  content: '[';
+  color: #000;
+}
+#write .md-def-name:after {
+  color: #000;
+}
+
+
+/* 代码块主题 */
+code, .md-fences {
+	/* border: 1px solid #ccc; */
+  padding: 0.5em;
+	border-radius: 5px;
+	margin: 0.2em 0;
+  font-family: "JetBrains Mono NL", "Resource Han Rounded CN", "Microsoft YaHei", sans-serif;
+}
+#write .CodeMirror-wrap .CodeMirror-code pre {
+
+	font-family: "JetBrains Mono NL", "Resource Han Rounded CN";
+	src: local('JetBrains Mono NL')/*, url('rainbow/JetBrainsMonoNL-Regular.ttf') format('ttf')*/;
+	font-size: 0.98em;
+}
+
+.md-fences {
+  margin: 0.2em 0;
+  background-color: var(--code-block-bg-color);
+  color: rgb(169,183,198);
+	/* font-size: 1.2em; */
+	padding: 0.5em;
+  padding-top: 0.4em;
+  border: none;
+	text-shadow: none;
+  /* box-shadow: 0px 4px 9px grey; */
+}
+.md-fences .code-tooltip {
+	background-color: var(--code-block-bg-color);
+}
+
+.CodeMirror div.CodeMirror-cursor {
+  margin-left: 0px;
+  border-left: 1px solid #7ba0f0;
+  z-index: 5;
+}
+
+.cm-s-inner div.CodeMirror-selected {
+  background: rgba(113, 124, 180, 0.2);
+}
+.CodeMirror-code{
+  margin-left: 0px;
+}
+.cm-s-inner .CodeMirror-gutters {
+  background: #253137;
+  color: #1E232D;
+  border: none;
+}
+
+.cm-s-inner .cm-keyword {
+  color: #c792ea;
+  font-weight: 450;
+}
+.cm-s-inner .cm-operator {
+  color: #89ddff;
+}
+.cm-s-inner .cm-variable-2 {
+  color: #eeffff;
+}
+.cm-s-inner .cm-variable-3,
+.cm-s-inner .cm-type {
+  color: #f07178;
+}
+.cm-s-inner .cm-builtin {
+  color: #ffcb6b;
+}
+.cm-s-inner .cm-atom {
+  color: #f78c6c;
+}
+.cm-s-inner .cm-number {
+  color: #e49123;
+}
+.cm-s-inner .cm-def {
+  color: #82aaff;
+}
+.cm-s-inner .cm-string {
+  color: #c3e88d;
+}
+.cm-s-inner .cm-string-2 {
+  color: #f07178;
+}
+.cm-s-inner .cm-comment {
+  color: #676e95;
+}
+.cm-s-inner .cm-variable {
+  color: #f07178;
+}
+.cm-s-inner .cm-tag {
+  color: #ff5370;
+}
+.cm-s-inner .cm-meta {
+  color: #ffcb6b;
+}
+.cm-s-inner .cm-attribute {
+  color: #c792ea;
+}
+.cm-s-inner .cm-property {
+  color: #c792ea;
+}
+.cm-s-inner .cm-qualifier {
+  color: #decb6b;
+}
+.cm-s-inner .cm-variable-3,
+.cm-s-inner .cm-type {
+  color: #decb6b;
+}
+.cm-s-inner .cm-error {
+  color: rgba(255, 255, 255, 1);
+  background-color: #e9405c;
+}
+
+/* 流程图 */
+pre[lang='sequence'],
+pre[lang='flow'],
+pre[lang='mermaid']
+{
+  /* background: #ffffff; */
+  background: #333333;
+  /* color: #333333; */
+  color: #ffffff;
+}

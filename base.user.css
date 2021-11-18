@@ -1,0 +1,53 @@
+/* inline code */
+
+#write .md-fences,
+
+code,
+
+tt {
+
+	font-family: "JetBrains Mono NL Medium", "Resource Han Rounded CN";
+	src: local('JetBrains Mono NL Medium')/*, url('rainbow/JetBrainsMonoNL-Medium.ttf') format('ttf')*/;
+	font-size: 0.98em
+}
+
+
+
+/* code-block */
+
+#write pre.md-meta-block {
+    min-height: 30px;
+    position: sticky;
+    padding: 1.5rem;
+    margin-top: -1.5rem;
+    margin-bottom: 2rem;
+}
+
+#write pre.md-fences {
+    border-top: 2rem solid #253137;
+    padding: 1rem;
+    display: block;
+    -webkit-overflow-scrolling: touch;
+    box-shadow: 0px 8px 16px 1px #0000001a;
+    margin: 1.5rem auto;
+}
+
+#write pre.md-meta-block,
+#write pre.md-fences {
+    font-family: "JetBrains Mono NL", "Resource Han Rounded CN";
+    border-radius: 5px;
+    background: #253137;
+    /* color: #f2f2f2; */
+}
+
+pre.md-fences:before {
+    content: ' ';
+    background: #fc625d;
+    box-shadow: 23px 0 #fdbc40, 45px 0 #35cd4b;
+    border-radius: 50%;
+    margin-top: -2.3rem;
+    position: absolute;
+    left: 15px;
+    height: 12px;
+    width: 12px;
+}
