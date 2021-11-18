@@ -1,37 +1,37 @@
-# typora-rainbow-theme
+# Typora Rainbow 主题
 
-#### 介绍
-A simple and colorful theme of Typora
+<br>
 
-#### 软件架构
-软件架构说明
+For English documentation, please see `README.en.md`
 
+<br>
 
-#### 安装教程
+> **Rainbow** 是一个简洁美观的 Typora 主题, 其代码基于 [typora-maize-theme](https://github.com/BEATREE/typora-maize-theme)
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+<br>
+<br>
 
-#### 使用说明
+## 截图
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+![](./img/Rainbow.png)
 
-#### 参与贡献
+<br>
+<br>
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+## 如何安装 Rainbow
 
+  1. 下载并安装所需的三款字体 `JetBrains Mono NL`[^1]、`LXGW Wen Kai`[^2] 和 `Resource Han Rounded CN` 。你可以下载我的 `fonts` 文件夹中的字体压缩包，也可以从网站下载最新版本的字体
 
-#### 特技
+  2. 下载文件 `rainbow.css` 与 `base.user.css`
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+  3. 打开 Typora，点击 **文件** → **偏好设置** → **外观** 窗口下的 `打开主题文件夹`
+
+  4. 将下载的 CSS 文件放入打开的文件夹中。注意要确保你的 CSS 文件在该目录中（而非其子目录）！
+
+  5. 重启 Typora，点击 **主题** 菜单并选择 Rainbow。祝使用愉快 ~
+
+<br>
+
+[^1]:<https://www.jetbrains.com/lp/mono/>
+
+[^2]:<https://github.com/lxgw/LxgwWenKai>
