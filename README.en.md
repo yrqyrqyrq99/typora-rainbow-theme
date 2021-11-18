@@ -1,7 +1,8 @@
 # Typora Rainbow Theme
 
 <br>
-[点击这里查看中文说明文档](./README.md)
+
+中文说明文档请见 `README.md`
 
 <br>
 
