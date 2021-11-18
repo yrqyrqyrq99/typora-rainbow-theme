@@ -1,36 +1,36 @@
-# typora-rainbow-theme
+# Typora Rainbow Theme
 
-#### Description
-A simple and colorful theme of Typora
+<br>
+[点击这里查看中文说明文档](./README.md)
 
-#### Software Architecture
-Software architecture description
+<br>
 
-#### Installation
+> **Rainbow** is a simple and colorful theme of Typora, inpired by [typora-maize-theme](https://github.com/BEATREE/typora-maize-theme)
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+<br>
+<br>
 
-#### Instructions
+## Screenshots
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+![](./img/Rainbow.png)
 
-#### Contribution
+<br>
+<br>
 
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
+## How to install Rainbow
 
+  1. Download and install the three required fonts `JetBrains Mono NL`[^1], `LXGW Wen Kai`[^2], and `Resource Han Rounded CN`. You can download my package from the `fonts` folder, or you can download the latest version yourself from the website.
 
-#### Gitee Feature
+  2. Download `rainbow.css` and `base.user.css`.
 
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+  3. Open Typora. Click `Open Theme Folder` button from **File** → **Preference** → **Appearance** section.
+
+  4. Put downloaded CSS files into the opened folder. Make sure your CSS files are directly under that directory!
+
+  5. Restart your Typora, then click **Themes** to choose Rainbow. Enjoy it ~
+
+<br>
+
+[^1]:<https://www.jetbrains.com/lp/mono/>
+
+[^2]:<https://github.com/lxgw/LxgwWenKai>
