@@ -2,7 +2,7 @@
 
 <br>
 
-For English documentation, please see `README.en.md`
+For English documentation, please see [README.en.md](README.en.md)
 
 <br>
 
@@ -13,7 +13,19 @@ For English documentation, please see `README.en.md`
 
 ## 截图
 
-![](./img/Rainbow.png)
+<img src="img/01.jpg" style="zoom: 25%;" />
+
+<br>
+
+<img src="img/02.jpg" style="zoom: 25%;" />
+
+<br>
+
+<img src="img/03.jpg" style="zoom: 25%;" />
+
+<br>
+
+<img src="img/04.jpg" style="zoom: 25%;" />
 
 <br>
 <br>
