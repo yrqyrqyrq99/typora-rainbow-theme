@@ -95,6 +95,7 @@ body {
   text-decoration: none !important;
   border-bottom: none !important;
 }
+
 #write h1:before,
 #write h1:after {
     content: "";
@@ -105,13 +106,11 @@ body {
 }
 #write h1::before {
   top: -1.2rem;
-  /* border-top: 2px dashed #449BFF; */
-  border-top: 2px dashed #78B4F0;
+  border-top: 2px solid #64C8FF;
 }
 #write h1::after {
   top: 1.2rem;
-  /* border-top: 2px dashed #46D791; */
-  border-bottom: 2px dashed #78DCA0;
+  border-bottom: 2px solid #C896FF;
 }
 #write h1 {
   /* margin: 1.2em 0; */
@@ -119,18 +118,21 @@ body {
   line-height: 50px;
   margin: 6rem auto 4rem;
   text-align: center;
+  /* background-image: linear-gradient(#E6FAFF, #F0F0FF); */
 }
 
 #write h2::before{
   content: "✔";
   font-weight: bold;
-  color: #32B4DC;
+  color: #46B4F0;
   margin-right: 4px
 }
 #write h2 {
+  /* text-align: center; */
   font-size: 2.2rem;
   line-height: 46px;
   margin: 1.2em 0;
+  border-bottom: 2px solid #78D2FA;
 }
 #write h2 span {
  font-weight: bold;
@@ -144,6 +146,7 @@ body {
   margin: 1.2em 0;
   padding-left: 16px;
   border-left: 6px solid #64E6D2;
+  border-bottom: 2px solid #64E6D2;
 }
 
 #write h4 {
@@ -226,18 +229,17 @@ body {
 #write a {
   text-decoration: none;
   font-weight: normal;
-  /* color: #33CC99; */
-  color: #32C896;
-  border-bottom: 1px solid #32C896;
+  color: #32C8A0;
+  border-bottom: 1px solid #32C8A0;
 }
 
 /* 分割线 */
 #write hr {
-  height: 1px;
+  height: 2px;
   padding: 0;
   border: none;
   text-align: center;
-  background-image: linear-gradient(to right,rgba(231, 93, 109,0.3),rgba(255, 159, 150,0.75),rgba(255, 216, 181,0.3));
+  background-image: linear-gradient(to right, #AAF0FF, #D2C8FF);
 }
 
 /* highlight */
@@ -254,8 +256,8 @@ body {
 #write code{
   font-size: 16px;
   /* color: #FA505A; */
-  color: #FF6EAA;
-  background-color: #f0f0f0;
+  color: #FF5AA0;
+  background-color: #F2F2F2;
 }
 
 #write p code,
@@ -303,9 +305,8 @@ body {
 
 /* footnotes mark */
 #write .md-footnote {
- /* font-weight: bold; */
- color: #777777;
- background-color: #F0FFFA;
+  color: #32C8A0;
+  background-color: #FAFFFA;
 }
 #write .md-footnote > .md-text:before {
  content: '['
