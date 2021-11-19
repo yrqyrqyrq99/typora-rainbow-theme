@@ -2,7 +2,7 @@
 
 <br>
 
-中文说明文档请见 `README.md`
+中文说明文档请见 [README.md](README.md)
 
 <br>
 
@@ -13,7 +13,15 @@
 
 ## Screenshots
 
-![](./img/Rainbow.png)
+<img src="img/01.jpg" style="zoom: 25%;" />
+
+<br>
+
+<img src="img/02.jpg" style="zoom: 25%;" />
+
+<br>
+
+<img src="img/03.jpg" style="zoom: 25%;" />
 
 <br>
 <br>
