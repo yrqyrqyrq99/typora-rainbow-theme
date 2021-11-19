@@ -24,10 +24,6 @@ For English documentation, please see [README.en.md](README.en.md)
 <img src="img/03.jpg" style="zoom: 25%;" />
 
 <br>
-
-<img src="img/04.jpg" style="zoom: 25%;" />
-
-<br>
 <br>
 
 ## 如何安装 Rainbow
