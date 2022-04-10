@@ -6,12 +6,13 @@ For English documentation, please see [README.en.md](README.en.md)
 
 <br>
 
-> **Rainbow** 是一个简洁美观的 Typora 主题, 其代码基于 [typora-maize-theme](https://github.com/BEATREE/typora-maize-theme)
+> **Rainbow** 是一个简洁美观的、适用于中文和英文的 Typora 主题, 其代码基于 [Maize](https://github.com/BEATREE/typora-maize-theme) 和 [Liquid](https://github.com/Fentaniao/Liquid)
 
 <br>
+
 <br>
 
-## 截图
+## 旧版截图
 
 <img src="img/01.jpg" style="zoom: 25%;" />
 
@@ -24,13 +25,38 @@ For English documentation, please see [README.en.md](README.en.md)
 <img src="img/03.jpg" style="zoom: 25%;" />
 
 <br>
+
+<br>
+
+## 新版截图
+
+<img src="img/11.jpg" style="zoom: 25%;" />
+
+<br>
+
+<img src="img/12.jpg" style="zoom: 25%;" />
+
+<br>
+
+<img src="img/13.jpg" style="zoom: 25%;" />
+
+<br>
+
+<img src="img/14.jpg" style="zoom: 25%;" />
+
+<br>
+
+<img src="img/15.jpg" style="zoom: 25%;" />
+
+<br>
+
 <br>
 
 ## 如何安装 Rainbow
 
-  1. 下载并安装所需的三款字体 `JetBrains Mono NL`[^1]、`LXGW Wen Kai`[^2] 和 `Resource Han Rounded CN` 。你可以下载我的 `fonts` 文件夹中的字体压缩包，也可以从网站下载最新版本的字体
+  1. 下载并安装所需的三款字体 `JetBrains Mono NL`[^1]、`LXGW Wen Kai`[^2]、`Resource Han Rounded CN Normal` 、`方正北魏楷书简体` 、`方正宋黑简体` 、`今天我又想你啦` 、`浅喜深爱`[^3]。你可以下载我的 `fonts` 文件夹中的字体压缩包，也可以从网站下载最新版本的字体
 
-  2. 下载文件 `rainbow.css` 与 `base.user.css`
+  2. 下载文件 `rainbow.css`
 
   3. 打开 Typora，点击 **文件** → **偏好设置** → **外观** 窗口下的 `打开主题文件夹`
 
@@ -43,3 +69,7 @@ For English documentation, please see [README.en.md](README.en.md)
 [^1]:<https://www.jetbrains.com/lp/mono/>
 
 [^2]:<https://github.com/lxgw/LxgwWenKai>
+[^3]:<https://www.foundertype.com/index.php/FindFont/index>
+
+
+

@@ -1,7 +1,7 @@
 @font-face {
-  font-family: 'Resource Han Rounded CN';
+  font-family: 'Resource Han Rounded CN Normal';
   font-style: normal;
-  src: local('Resource Han Rounded CN')/*, url('rainbow/Resource_Han_Rounded_CN_Regular.ttf') format('ttf')*/;
+  src: local('Resource Han Rounded CN Normal')/*, url('rainbow/Resource_Han_Rounded_CN_Regular.ttf') format('ttf')*/;
   line-height: 1.6;
 }
 
@@ -10,10 +10,10 @@
   /* --select-text-bg-color: #e49123; */
   --bg-color:  #FFFFFF;                   /*change background*/
   --text-color: #333333;                  /*change text color*/
-  --md-char-color: #C7C5C5;               /*change color of meta characetrs like `*` in markdown */
-  --meta-content-color: #5b808d;          /*change color of meta contents like image text or link address in markdown */
+  --md-char-color: #C7C5C5;               /*change color of meta characters like `*` in markdown*/
+  --meta-content-color: #5b808d;          /*change color of meta contents like image text or link address in markdown*/
 
-  --primary-color: #428bca;               /* color of primary buttons */
+  --primary-color: #428bca;               /*color of primary buttons*/
   --primary-btn-border-color: #285e8e;
   --primary-btn-text-color: #fff;
 
@@ -26,13 +26,16 @@
   --table-head-color:#d9ede5;
   --table-even-row-color:#f8fcfa;
 	--deep-theme-color: #4eb289;
-  --code-block-bg-color: #303848;
+  /* --code-block-bg-color: #303848; */
+  --code-block-bg-color: #323C48;
 
-  --side-bar-bg-color: var(--bg-color);     /*change background of sidebar*/
+  --side-bar-bg-color: #F8F8F8;     /*change background of sidebar*/
   --item-hover-bg-color: rgba(229, 229, 229, 0.59); /*background of control items when hover, like menu in sidebar*/
   --item-hover-text-color: inherit;
   --monospace: monospace;                   /*monospace font for codes, fences*/
 }
+
+/* 选中的文字 */
 ::selection {
 	background:#b981d1;
 	color:white
@@ -48,7 +51,7 @@
 
 body {
 	background-color: #FFFFFF;
-  font-family: 'Resource Han Rounded CN';
+  font-family: 'Resource Han Rounded CN Normal';
   font-size: 18px;
 	font-weight: normal;
 	line-height: 28px;
@@ -61,7 +64,7 @@ body {
   font-size: 18px;
   text-align: left;
   letter-spacing: 0px;
-  font-family: "Resource Han Rounded CN", "Microsoft YaHei", sans-serif;
+  font-family: "Resource Han Rounded CN Normal";
 }
 
 /* 段落 */
@@ -74,12 +77,6 @@ body {
   color: black;
 }
 
-/*  task list 对齐 */
-#write input[type="checkbox"] {
-  margin-top: calc(1em - 2px);
-  margin-right: 5px;
-  left: -3px;
-}
 
 /* 标题 */
 #write h1 *,
@@ -106,63 +103,71 @@ body {
 }
 #write h1::before {
   top: -1.2rem;
-  border-top: 2px solid #64C8FF;
+  border-top: 2px solid #4BBEFF;
 }
 #write h1::after {
   top: 1.2rem;
-  border-bottom: 2px solid #C896FF;
+  border-bottom: 2px solid #B47AFF;
 }
 #write h1 {
   /* margin: 1.2em 0; */
+  font-family: 'Resource Han Rounded CN Normal';
   font-size: 2.4rem;
   line-height: 50px;
-  margin: 6rem auto 4rem;
+  margin: 5rem auto 4rem;
   text-align: center;
+  text-shadow: 0.15rem 0.15rem 0.3rem #C8C8C8;
   /* background-image: linear-gradient(#E6FAFF, #F0F0FF); */
 }
 
-#write h2::before{
-  content: "✔";
-  font-weight: bold;
-  color: #46B4F0;
-  margin-right: 4px
-}
 #write h2 {
-  /* text-align: center; */
+  text-align: center;
+  font-family: '方正宋黑简体';
   font-size: 2.2rem;
-  line-height: 46px;
-  margin: 1.2em 0;
-  border-bottom: 2px solid #78D2FA;
+  margin: 2em 0;
+  text-shadow: 0.12rem 0.12rem 0.3rem #C8C8C8;
+  /* line-height: 46px;
+  border-bottom: 2px solid #78D2FA; */
 }
-#write h2 span {
- font-weight: bold;
- color: #333;
- padding: 1px 9px 1px;
+h2:after {
+  content: '';
+	/* height: 1px; */
+	width: 50%;
+  height: 2.4px;
+	display: block;
+	margin: 1em auto 1em;
+	border-bottom: 2px solid #64D2FF;
 }
 
 #write h3 {
+  font-family: '方正宋黑简体';
   font-size: 2rem;
   line-height: 42px;
   margin: 1.2em 0;
   padding-left: 16px;
-  border-left: 6px solid #64E6D2;
-  border-bottom: 2px solid #64E6D2;
+  border-left: 6px solid #AAB4FF;
+  border-bottom: 2px solid #AAB4FF;
 }
 
 #write h4 {
-  font-size: 1.8rem;
+  font-family: '方正北魏楷书简体';
+  font-size: 1.9rem;
   line-height: 38px;
   margin: 1.2em 0;
+  border-bottom: 2px solid #E0BEFC;
 }
 
 #write h5 {
-  font-size: 1.6rem;
+  font-family: '今天我又想你啦';
+  font-size: 1.8rem;
   line-height: 34px;
   margin: 1.2em 0;
+  border-bottom: 2px dashed #6EF0DC;
 }
 
 #write h6 {
-  font-size: 1.4rem;
+  font-family: '浅喜深爱';
+  font-size: 1.8rem;
   line-height: 30px;
   margin: 1.2em 0;
 }
@@ -195,6 +200,18 @@ body {
   font-size: 16px;
 }
 
+/* checkboxes */
+#write input[type="checkbox"] {
+  margin-top: 1em;/* calc(1em - 1px) */
+  margin-right: 5px;
+  left: -3px;
+}
+#write .task-list-item input[type = "checkbox"]:checked + p {
+	text-decoration: line-through;
+	color: #9E9E9E;
+}
+
+
 /* 粗体 */
 #write strong {
   color: #3296F0;
@@ -206,6 +223,7 @@ body {
   color: #7878FA;
   font-weight: normal;
 }
+
 
 /* 引用 */
 #write blockquote {
@@ -226,6 +244,7 @@ body {
   line-height: 30px;
 }
 
+
 /* 超链接 */
 #write a {
   text-decoration: none;
@@ -233,6 +252,7 @@ body {
   color: #32C8A0;
   border-bottom: 1px solid #32C8A0;
 }
+
 
 /* 分割线 */
 #write hr {
@@ -243,19 +263,24 @@ body {
   background-image: linear-gradient(to right, #AAF0FF, #D2C8FF);
 }
 
+
 /* highlight */
 #write mark {
-	background-color: #E2E2FA;
-  /* background-color: #FADCF0; */
+	/* background-color: #E2E2FA; */
+  background-color: #FAE6E6;
 	border-radius: 2px;
 	color: black;
 	padding: 0 4px;
 	margin: 0 2px;
 }
 
+
 /* 行内代码 */
-#write code{
-  font-size: 16px;
+#write code,
+tt {
+  font-family: "JetBrains Mono NL Medium", "Resource Han Rounded CN Normal";
+  /* font-size: 16px; */
+  font-size: 0.95em;
   /* color: #FA505A; */
   color: #FF5AA0;
   background-color: #F2F2F2;
@@ -271,6 +296,7 @@ body {
   word-break: break-all;
 }
 
+
 /* 文章插图 */
 #write img {
   display: block;
@@ -278,7 +304,8 @@ body {
   width: 90%;
   max-width: 100%;
   border-radius: 5px;
-  box-shadow:0px 4px 12px #84A1A8;
+  /* box-shadow:0px 4px 12px #84A1A8; */
+  box-shadow: 0.12rem 0.12rem 0.3rem #BBBBBB;
   border: 0px;
 }
 
@@ -339,18 +366,51 @@ span.md-def-name {
 
 
 /* 代码块主题 */
+#write pre.md-meta-block {
+  min-height: 30px;
+  position: sticky;
+  padding: 1.5rem;
+  /* margin-top: -1.5rem; */
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* #write pre.md-fences {
+  border-top: 2rem solid var(--code-block-bg-color);
+  padding: 1rem;
+  display: block;
+  -webkit-overflow-scrolling: touch;
+  box-shadow: 0.12rem 0.12rem 0.3rem #BBBBBB;
+  margin: 1.5rem auto;
+} */
+
+#write pre.md-meta-block,
+#write pre.md-fences {
+  font-family: "JetBrains Mono NL", "Resource Han Rounded CN Normal";
+  border-radius: 8px;
+  background: var(--code-block-bg-color);
+  /* color: #f2f2f2; */
+}
+
+/* pre.md-fences:before {
+  content: ' ';
+  background: #FC625D;
+  box-shadow: 23px 0 #FDBC40, 45px 0 #35CD4B;
+  border-radius: 50%;
+  margin-top: -2.3rem;
+  position: absolute;
+  left: 15px;
+  height: 12px;
+  width: 12px;
+} */
+
 code, .md-fences {
 	/* border: 1px solid #ccc; */
   padding: 0.5em;
-	border-radius: 5px;
-	margin: 0.2em 0;
-  font-family: "JetBrains Mono NL", "Resource Han Rounded CN", "Microsoft YaHei", sans-serif;
-}
-#write .CodeMirror-wrap .CodeMirror-code pre {
-
-	font-family: "JetBrains Mono NL", "Resource Han Rounded CN";
-	src: local('JetBrains Mono NL')/*, url('rainbow/JetBrainsMonoNL-Regular.ttf') format('ttf')*/;
-	font-size: 0.98em;
+	border-radius: 8px;
+	margin: 2em 0;
+  font-family: "JetBrains Mono NL", "Resource Han Rounded CN Normal";
+  font-size: 0.95em;
 }
 
 .md-fences {
@@ -358,8 +418,8 @@ code, .md-fences {
   background-color: var(--code-block-bg-color);
   color: rgb(169,183,198);
 	/* font-size: 1.2em; */
-	padding: 0.5em;
-  padding-top: 0.4em;
+	padding: 1em;
+  padding-top: 1em;
   border: none;
 	text-shadow: none;
   /* box-shadow: 0px 4px 9px grey; */
@@ -370,29 +430,28 @@ code, .md-fences {
 
 .CodeMirror div.CodeMirror-cursor {
   margin-left: 0px;
-  border-left: 1px solid #7ba0f0;
+  border-left: 1px solid #7BA0F0;
   z-index: 5;
 }
 
 .cm-s-inner div.CodeMirror-selected {
-  background: rgba(113, 124, 180, 0.2);
+  background: rgba(112, 124, 180, 0.2);
 }
 .CodeMirror-code{
   margin-left: 0px;
 }
 .cm-s-inner .CodeMirror-gutters {
-  background: #303848;
+  background: var(--code-block-bg-color);
   /* color: #1E232D; */
-  /* color: #2D2D2D; */
+  /* color: #DDDDDD; */
   border: none;
+  /* border-right: 2px solid #888888; */
 }
 
 .cm-s-inner .cm-keyword {
   color: #BE96FF;
-  font-weight: 450;
 }
 .cm-s-inner .cm-operator {
-  /* color: #8CDCFF; */
   color: #F0FA8C;
 }
 .cm-s-inner .cm-variable-2 {
@@ -405,14 +464,12 @@ code, .md-fences {
   color: #FA786E;
 }
 .cm-s-inner .cm-number {
-  /* color: #46FAD2; */
-  color:#A0C8FF;
+  color: #A0C8FF;
 }
 .cm-s-inner .cm-def {
   color: #6EBEFF;
 }
 .cm-s-inner .cm-string {
-  /* color: #64FAAA; */
   color: #5AFAA0;
 }
 .cm-s-inner .cm-string-2 {
@@ -441,7 +498,6 @@ code, .md-fences {
 }
 .cm-s-inner .cm-variable-3,
 .cm-s-inner .cm-type {
-  /* color: #FAC88C; */
   color: #FF78C8;
 }
 .cm-s-inner .cm-error {
@@ -449,11 +505,62 @@ code, .md-fences {
   background-color: #E65E7A;
 }
 
+
 /* 流程图 */
 pre[lang='sequence'],
-pre[lang='flow'],
+pre[lang='flow']
+{
+  background: #FFFFFF;
+  color: #969696;
+}
+
 pre[lang='mermaid']
 {
   background: #333333;
-  color: #ffffff;
+  color: #FFFFFF;
+}
+
+
+/* 侧栏 */
+#typora-sidebar,
+.typora-node #typora-sidebar {
+    box-shadow: 3px 0px 10px rgba(150, 150, 150, 0.1);
+    color: var(--text-color);
+}
+
+.sidebar-content-content {
+    font-size: 0.95rem;
+}
+
+
+/* TOC */
+#write .md-toc {
+  background-color: #F8F8F8;
+  border-radius: 20px 20px 20px 20px;
+  padding: 2px 4px;
+  margin: 0 2px;
+}
+
+#write a.md-toc-inner {
+  line-height: 1.5;
+  white-space: pre-line;
+  border-bottom: none;
+}
+
+#write .md-toc-h2 .md-toc-inner {
+  font-size: 1.2rem;
+}
+
+#write .md-toc-h3 .md-toc-inner {
+  font-size: 1.1rem;
+}
+
+#write .md-toc-h4 .md-toc-inner {
+  font-size: 1rem;
+}
+
+.md-toc-h1,
+.md-toc-h5,
+.md-toc-h6 {
+  display: none;
 }
