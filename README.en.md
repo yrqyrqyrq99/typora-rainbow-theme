@@ -12,7 +12,19 @@
 
 <br>
 
-## Screenshots of old version
+## Notice!
+
+Rainbow Theme has been updated to multicolor version. Welcome to download and experience it ✧(≖ ◡ ≖✿)
+
+<img src="img/00.jpg" style="zoom: 25%;" />
+
+<br>
+
+<br>
+
+## Screenshots
+
+> Click on the image for a larger view
 
 <img src="img/01.jpg" style="zoom: 25%;" />
 
@@ -26,31 +38,15 @@
 
 <br>
 
-<br>
-
-## Screenshots of new version
-
-<img src="img/11.jpg" style="zoom: 25%;" />
+<img src="img/04.jpg" style="zoom: 25%;" />
 
 <br>
 
-<img src="img/12.jpg" style="zoom: 25%;" />
+<img src="img/05.jpg" style="zoom: 25%;" />
 
 <br>
 
-<img src="img/13.jpg" style="zoom: 25%;" />
-
-<br>
-
-<img src="img/14.jpg" style="zoom: 25%;" />
-
-<br>
-
-<img src="img/15.jpg" style="zoom: 25%;" />
-
-<br>
-
-<img src="img/16.jpg" style="zoom: 25%;" />
+<img src="img/06.jpg" style="zoom: 25%;" />
 
 <br>
 

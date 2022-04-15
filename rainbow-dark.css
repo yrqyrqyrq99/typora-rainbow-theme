@@ -8,8 +8,8 @@
 /* 全局属性 */
 :root{
   /* --select-text-bg-color: #e49123; */
-  --bg-color:  #FFFFFF;                   /*change background*/
-  --text-color: #333333;                  /*change text color*/
+  --bg-color:  #303030;                   /*change background*/
+  --text-color: #FCFCFC;                  /*change text color*/
   --md-char-color: #C7C5C5;               /*change color of meta characters like `*` in markdown*/
   --meta-content-color: #5b808d;          /*change color of meta contents like image text or link address in markdown*/
 
@@ -19,7 +19,7 @@
 
   --window-border: 1px solid #eee;        /*border for sidebar, etc*/
 
-  --active-file-bg-color: #ecf6f2;           /*background color if list item in file tree or file list*/
+  --active-file-bg-color: #ECF6F2;           /*background color if list item in file tree or file list*/
   --active-file-text-color:#202020;
   --active-file-border-color: #6B6B6B;
 
@@ -27,9 +27,9 @@
   --table-even-row-color:#f8fcfa;
 	--deep-theme-color: #4eb289;
   /* --code-block-bg-color: #303848; */
-  --code-block-bg-color: #323C48;
+  --code-block-bg-color: #28323E;
 
-  --side-bar-bg-color: #F8F8F8;     /*change background of sidebar*/
+  --side-bar-bg-color: #282828;     /*change background of sidebar*/
   --item-hover-bg-color: rgba(229, 229, 229, 0.59); /*background of control items when hover, like menu in sidebar*/
   --item-hover-text-color: inherit;
   --monospace: monospace;                   /*monospace font for codes, fences*/
@@ -50,7 +50,7 @@
 }
 
 body {
-	background-color: #FFFFFF;
+	background-color: var(--bg-color);
   font-family: 'Resource Han Rounded CN Normal';
   font-size: 18px;
 	font-weight: normal;
@@ -74,7 +74,7 @@ body {
   padding-bottom: 8px;
   margin: 0;
   line-height: 30px;
-  color: black;
+  color: var(--text-color);
 }
 
 
@@ -89,7 +89,7 @@ body {
   margin: 1em 0;
   padding: 0px;
   font-weight: bold;
-  color: black;
+  color: var(--text-color);
   text-decoration: none !important;
   border-bottom: none !important;
 }
@@ -104,11 +104,11 @@ body {
 }
 #write h1::before {
   top: -1.2rem;
-  border-top: 2px solid #4BBEFF;
+  border-top: 2px solid #32AAFF;
 }
 #write h1::after {
   top: 1.2rem;
-  border-bottom: 2px solid #B47AFF;
+  border-bottom: 2px solid #6E6EFF;
 }
 #write h1 {
   /* margin: 1.2em 0; */
@@ -116,7 +116,7 @@ body {
   line-height: 46px;
   margin: 3rem auto 4rem;
   text-align: center;
-  text-shadow: 0.15rem 0.15rem 0.3rem #C8C8C8;
+  text-shadow: 0.15rem 0.15rem 0.3rem #505050;
   /* background-image: linear-gradient(#E6FAFF, #F0F0FF); */
 }
 
@@ -125,7 +125,7 @@ body {
   font-size: 2rem;
   line-height: 46px;
   margin: 2em 0;
-  text-shadow: 0.12rem 0.12rem 0.3rem #C8C8C8;
+  text-shadow: 0.12rem 0.12rem 0.3rem #505050;
   /* line-height: 46px;
   border-bottom: 2px solid #78D2FA; */
 }
@@ -136,7 +136,7 @@ h2:after {
   height: 2.4px;
 	display: block;
 	margin: 1em auto 1em;
-	border-bottom: 2px solid #64D2FF;
+	border-bottom: 2px solid #46B4FF;
 }
 
 #write h3 {
@@ -144,22 +144,22 @@ h2:after {
   line-height: 42px;
   margin: 1.2em 0;
   padding-left: 14px;
-  border-left: 6px solid #AAB4FF;
-  border-bottom: 2px solid #AAB4FF;
+  border-left: 6px solid #8C96FF;
+  border-bottom: 2px solid #8C96FF;
 }
 
 #write h4 {
   font-size: 1.8rem;
   line-height: 38px;
   margin: 1.2em 0;
-  border-bottom: 2px solid #E0BEFC;
+  border-bottom: 2px solid #CA8EFC;
 }
 
 #write h5 {
   font-size: 1.7rem;
   line-height: 34px;
   margin: 1.2em 0;
-  border-bottom: 2px dashed #6EF0DC;
+  border-bottom: 2px dashed #6EE6D2;
 }
 
 #write h6 {
@@ -174,7 +174,7 @@ h2:after {
   margin-top: 4px;
   margin-bottom: 4px;
   padding-left: 40px;
-  color: black;
+  color: var(--text-color);
 }
 #write ul {
   list-style-type: circle;
@@ -210,13 +210,13 @@ h2:after {
 
 /* 粗体 */
 #write strong {
-  color: #3296F0;
+  color: #3CB4FA;
   font-weight: bold;
 }
 
 /* 斜体 */
 #write em {
-  color: #7878FA;
+  color: #9696FA;
   font-weight: normal;
 }
 
@@ -229,8 +229,9 @@ h2:after {
   padding: 10px 10px 10px 20px;
   font-size: 0.95em;
   line-height: 30px;
-  background: #FFFCFA;
-  border-left: 5px solid #FFAA1E;
+  /* background: #3278C8; */
+  border-left: 5px solid #32465A;
+  background-color: #2C2C36;
   border-radius: 8px;
   color: #6a737d;
   overflow: auto;
@@ -245,8 +246,8 @@ h2:after {
 #write a {
   text-decoration: none;
   font-weight: normal;
-  color: #32C8A0;
-  border-bottom: 1px solid #32C8A0;
+  color: #32BE96;
+  border-bottom: 1px solid #32BE96;
 }
 
 
@@ -256,16 +257,16 @@ h2:after {
   padding: 0;
   border: none;
   text-align: center;
-  background-image: linear-gradient(to right, #AAF0FF, #D2C8FF);
+  background-image: linear-gradient(to right, #466EB4, #6464B4);
 }
 
 
 /* highlight */
 #write mark {
 	/* background-color: #E2E2FA; */
-  background-color: #FAE6E6;
+  background-color: #71888E;
 	border-radius: 2px;
-	color: black;
+	color: var(--text-color);
 	padding: 0 4px;
 	margin: 0 2px;
 }
@@ -278,8 +279,8 @@ tt {
   /* font-size: 16px; */
   font-size: 0.95em;
   /* color: #FA505A; */
-  color: #FF5AA0;
-  background-color: #F2F2F2;
+  color: #FF8CB4;
+  background-color: #5C485A;
 }
 
 #write p code,
@@ -301,36 +302,36 @@ tt {
   max-width: 100%;
   border-radius: 5px;
   /* box-shadow:0px 4px 12px #84A1A8; */
-  box-shadow: 0.12rem 0.12rem 0.3rem #BBBBBB;
+  box-shadow: 0.12rem 0.12rem 0.3rem #3C3C3C;
   border: 0px;
 }
 
 #write table tr {
   border: 0;
-  border-top: 1px solid #ccc;
-  background-color: white;
+  border-top: 1px solid var(--side-bar-bg-color);
+  background-color: #5A5A64; /* 内容行 - 奇数行 */
 }
 #write table tr:nth-child(2n) {
-  background-color: #F8F8F8;
+  background-color: #46484C; /* 内容行 - 偶数行 */
 }
 #write table tr th,
 #write table tr td {
   font-size: 18px;
   line-height: 1.5;
-  border: 1px solid #ccc;
+  border: 1px solid var(--side-bar-bg-color);
   padding: 5px 10px;
   text-align: left;
 }
 #write table tr th {
   font-weight: bold;
-  background-color: #f0f0f0;
+  background-color: var(--side-bar-bg-color); /* 标题行 - 偶数行 */
 }
 
 
 /* footnotes mark */
 #write .md-footnote {
-  color: #32C8A0;
-  background-color: #FAFFFA;
+  color: #32BE96;
+  background-color: #464C5A;
 }
 #write .md-footnote > .md-text:before {
  content: '['
@@ -354,10 +355,10 @@ span.md-def-name {
 }
 #write .md-def-name:before {
   content: '[';
-  color: #000;
+  color: var(--text-color);
 }
 #write .md-def-name:after {
-  color: #000;
+  color: var(--text-color);
 }
 
 
@@ -531,7 +532,7 @@ pre[lang='mermaid']
 
 /* TOC */
 #write .md-toc {
-  background-color: #F8F8F8;
+  background-color: #464C5A;
   border-radius: 20px 20px 20px 20px;
   padding: 2px 4px;
   margin: 0 2px;

@@ -12,7 +12,19 @@ For English documentation, please see [README.en.md](README.en.md)
 
 <br>
 
-## 旧版截图
+## 通知！
+
+Rainbow 主题已更新多种色彩版本，欢迎下载体验哦 ✧(≖ ◡ ≖✿)
+
+<img src="img/00.jpg" style="zoom: 25%;" />
+
+<br>
+
+<br>
+
+## 截图
+
+> 点击图片可查看大图
 
 <img src="img/01.jpg" style="zoom: 25%;" />
 
@@ -26,31 +38,15 @@ For English documentation, please see [README.en.md](README.en.md)
 
 <br>
 
-<br>
-
-## 新版截图
-
-<img src="img/11.jpg" style="zoom: 25%;" />
+<img src="img/04.jpg" style="zoom: 25%;" />
 
 <br>
 
-<img src="img/12.jpg" style="zoom: 25%;" />
+<img src="img/05.jpg" style="zoom: 25%;" />
 
 <br>
 
-<img src="img/13.jpg" style="zoom: 25%;" />
-
-<br>
-
-<img src="img/14.jpg" style="zoom: 25%;" />
-
-<br>
-
-<img src="img/15.jpg" style="zoom: 25%;" />
-
-<br>
-
-<img src="img/16.jpg" style="zoom: 25%;" />
+<img src="img/06.jpg" style="zoom: 25%;" />
 
 <br>
 

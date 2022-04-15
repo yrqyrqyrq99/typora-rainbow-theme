@@ -8,7 +8,7 @@
 /* 全局属性 */
 :root{
   /* --select-text-bg-color: #e49123; */
-  --bg-color:  #FFFFFF;                   /*change background*/
+  --bg-color:  #F6F8EC;                   /*change background*/
   --text-color: #333333;                  /*change text color*/
   --md-char-color: #C7C5C5;               /*change color of meta characters like `*` in markdown*/
   --meta-content-color: #5b808d;          /*change color of meta contents like image text or link address in markdown*/
@@ -27,9 +27,9 @@
   --table-even-row-color:#f8fcfa;
 	--deep-theme-color: #4eb289;
   /* --code-block-bg-color: #303848; */
-  --code-block-bg-color: #323C48;
+  --code-block-bg-color: #E6E6DC;
 
-  --side-bar-bg-color: #F8F8F8;     /*change background of sidebar*/
+  --side-bar-bg-color: #EAEAE0;     /*change background of sidebar*/
   --item-hover-bg-color: rgba(229, 229, 229, 0.59); /*background of control items when hover, like menu in sidebar*/
   --item-hover-text-color: inherit;
   --monospace: monospace;                   /*monospace font for codes, fences*/
@@ -50,7 +50,7 @@
 }
 
 body {
-	background-color: #FFFFFF;
+	background-color: var(--bg-color);
   font-family: 'Resource Han Rounded CN Normal';
   font-size: 18px;
 	font-weight: normal;
@@ -229,7 +229,7 @@ h2:after {
   padding: 10px 10px 10px 20px;
   font-size: 0.95em;
   line-height: 30px;
-  background: #FFFCFA;
+  background: #FAF6EC;
   border-left: 5px solid #FFAA1E;
   border-radius: 8px;
   color: #6a737d;
@@ -262,8 +262,8 @@ h2:after {
 
 /* highlight */
 #write mark {
-	/* background-color: #E2E2FA; */
-  background-color: #FAE6E6;
+	background-color: #E2E2FA;
+  /* background-color: #FAE6E6; */
 	border-radius: 2px;
 	color: black;
 	padding: 0 4px;
@@ -279,7 +279,7 @@ tt {
   font-size: 0.95em;
   /* color: #FA505A; */
   color: #FF5AA0;
-  background-color: #F2F2F2;
+  background-color: #E6E6F2;
 }
 
 #write p code,
@@ -311,7 +311,7 @@ tt {
   background-color: white;
 }
 #write table tr:nth-child(2n) {
-  background-color: #F8F8F8;
+  background-color: #F8F6EC;
 }
 #write table tr th,
 #write table tr td {
@@ -323,7 +323,7 @@ tt {
 }
 #write table tr th {
   font-weight: bold;
-  background-color: #f0f0f0;
+  background-color: var(--side-bar-bg-color);
 }
 
 
@@ -445,56 +445,56 @@ code, .md-fences {
 }
 
 .cm-s-inner .cm-keyword {
-  color: #BE96FF;
+  color: #B478DC;
 }
 .cm-s-inner .cm-operator {
-  color: #F0FA8C;
+  color: #8CA0B4;
 }
 .cm-s-inner .cm-variable-2 {
-  color: #FAAAC8;
+  color: #FA78AA;
 }
 .cm-s-inner .cm-builtin {
-  color: #FF78C8;
+  color: #FA64C8;
 }
 .cm-s-inner .cm-atom {
-  color: #FA786E;
+  color: #FAA05A;
 }
 .cm-s-inner .cm-number {
-  color: #A0C8FF;
+  color: #3CAAFF;
 }
 .cm-s-inner .cm-def {
-  color: #6EBEFF;
+  color: #3CAAFF;
 }
 .cm-s-inner .cm-string {
-  color: #5AFAA0;
+  color: #3CE6A0;
 }
 .cm-s-inner .cm-string-2 {
-  color: #F06E78;
+  color: #F0646E;
 }
 .cm-s-inner .cm-comment {
-  color: #646E96;
+  color: #B4C8DC;
 }
 .cm-s-inner .cm-variable {
-  color: #FAA078;
+  color: #FAA05A;
 }
 .cm-s-inner .cm-tag {
-  color: #F06E78;
+  color: #FA64C8;
 }
 .cm-s-inner .cm-meta {
-  color: #A0FAC8;
+  color: #3CE6A0;
 }
 .cm-s-inner .cm-attribute {
-  color: #A0FAC8;
+  color: #3CE6A0;
 }
 .cm-s-inner .cm-property {
-  color: #A0FAC8;
+  color: #3CE6A0;
 }
 .cm-s-inner .cm-qualifier {
-  color: #FAC88C;
+  color: #B478DC;
 }
 .cm-s-inner .cm-variable-3,
 .cm-s-inner .cm-type {
-  color: #FF78C8;
+  color: #FF50B4;
 }
 .cm-s-inner .cm-error {
   color: rgba(255, 255, 255, 1);
@@ -531,7 +531,7 @@ pre[lang='mermaid']
 
 /* TOC */
 #write .md-toc {
-  background-color: #F8F8F8;
+  background-color: var(--code-block-bg-color);
   border-radius: 20px 20px 20px 20px;
   padding: 2px 4px;
   margin: 0 2px;

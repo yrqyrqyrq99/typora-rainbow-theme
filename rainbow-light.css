@@ -27,7 +27,7 @@
   --table-even-row-color:#f8fcfa;
 	--deep-theme-color: #4eb289;
   /* --code-block-bg-color: #303848; */
-  --code-block-bg-color: #323C48;
+  --code-block-bg-color: #FAFAFA;
 
   --side-bar-bg-color: #F8F8F8;     /*change background of sidebar*/
   --item-hover-bg-color: rgba(229, 229, 229, 0.59); /*background of control items when hover, like menu in sidebar*/
@@ -445,56 +445,56 @@ code, .md-fences {
 }
 
 .cm-s-inner .cm-keyword {
-  color: #BE96FF;
+  color: #B478DC;
 }
 .cm-s-inner .cm-operator {
-  color: #F0FA8C;
+  color: #8CA0B4;
 }
 .cm-s-inner .cm-variable-2 {
-  color: #FAAAC8;
+  color: #FA78AA;
 }
 .cm-s-inner .cm-builtin {
-  color: #FF78C8;
+  color: #FA64C8;
 }
 .cm-s-inner .cm-atom {
-  color: #FA786E;
+  color: #FAA05A;
 }
 .cm-s-inner .cm-number {
-  color: #A0C8FF;
+  color: #3CAAFF;
 }
 .cm-s-inner .cm-def {
-  color: #6EBEFF;
+  color: #3CAAFF;
 }
 .cm-s-inner .cm-string {
-  color: #5AFAA0;
+  color: #3CE6A0;
 }
 .cm-s-inner .cm-string-2 {
-  color: #F06E78;
+  color: #F0646E;
 }
 .cm-s-inner .cm-comment {
-  color: #646E96;
+  color: #B4C8DC;
 }
 .cm-s-inner .cm-variable {
-  color: #FAA078;
+  color: #FAA05A;
 }
 .cm-s-inner .cm-tag {
-  color: #F06E78;
+  color: #FA64C8;
 }
 .cm-s-inner .cm-meta {
-  color: #A0FAC8;
+  color: #3CE6A0;
 }
 .cm-s-inner .cm-attribute {
-  color: #A0FAC8;
+  color: #3CE6A0;
 }
 .cm-s-inner .cm-property {
-  color: #A0FAC8;
+  color: #3CE6A0;
 }
 .cm-s-inner .cm-qualifier {
-  color: #FAC88C;
+  color: #B478DC;
 }
 .cm-s-inner .cm-variable-3,
 .cm-s-inner .cm-type {
-  color: #FF78C8;
+  color: #FF50B4;
 }
 .cm-s-inner .cm-error {
   color: rgba(255, 255, 255, 1);
