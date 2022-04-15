@@ -50,11 +50,15 @@
 
 <br>
 
+<img src="img/16.jpg" style="zoom: 25%;" />
+
+<br>
+
 <br>
 
 ## How to install Rainbow
 
-  1. Download and install the three required fonts `JetBrains Mono NL`[^1], `LXGW Wen Kai`[^2], `Resource Han Rounded CN Normal` , `方正北魏楷书简体` , `方正宋黑简体` , `今天我又想你啦` and `浅喜深爱`[^3]. You can download my package from the `fonts` folder, or you can download the latest version yourself from the website.
+  1. Download and install the three required fonts `JetBrains Mono NL`[^1], `LXGW Wen Kai`[^2]and `Resource Han Rounded CN Normal` . You can download my package from the `fonts` folder, or you can download the latest version yourself from the website.
 
   2. Download `rainbow.css`.
 
@@ -69,5 +73,4 @@
 [^1]:<https://www.jetbrains.com/lp/mono/>
 
 [^2]:<https://github.com/lxgw/LxgwWenKai>
-[^3]:<https://www.foundertype.com/index.php/FindFont/index>
 

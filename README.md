@@ -50,11 +50,15 @@ For English documentation, please see [README.en.md](README.en.md)
 
 <br>
 
+<img src="img/16.jpg" style="zoom: 25%;" />
+
+<br>
+
 <br>
 
 ## 如何安装 Rainbow
 
-  1. 下载并安装所需的三款字体 `JetBrains Mono NL`[^1]、`LXGW Wen Kai`[^2]、`Resource Han Rounded CN Normal` 、`方正北魏楷书简体` 、`方正宋黑简体` 、`今天我又想你啦` 、`浅喜深爱`[^3]。你可以下载我的 `fonts` 文件夹中的字体压缩包，也可以从网站下载最新版本的字体
+  1. 下载并安装所需的三款字体 `JetBrains Mono NL`[^1]、`LXGW Wen Kai`[^2]、`Resource Han Rounded CN Normal` 。你可以下载我的 `fonts` 文件夹中的字体压缩包，也可以从网站下载最新版本的字体
 
   2. 下载文件 `rainbow.css`
 
@@ -69,7 +73,4 @@ For English documentation, please see [README.en.md](README.en.md)
 [^1]:<https://www.jetbrains.com/lp/mono/>
 
 [^2]:<https://github.com/lxgw/LxgwWenKai>
-[^3]:<https://www.foundertype.com/index.php/FindFont/index>
-
-
 

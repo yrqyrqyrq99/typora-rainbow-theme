@@ -85,6 +85,7 @@ body {
 #write h4 *,
 #write h5 *,
 #write h6 * {
+  font-family: 'Resource Han Rounded CN Normal';
   margin: 1em 0;
   padding: 0px;
   font-weight: bold;
@@ -111,10 +112,9 @@ body {
 }
 #write h1 {
   /* margin: 1.2em 0; */
-  font-family: 'Resource Han Rounded CN Normal';
-  font-size: 2.4rem;
-  line-height: 50px;
-  margin: 5rem auto 4rem;
+  font-size: 2.2rem;
+  line-height: 46px;
+  margin: 3rem auto 4rem;
   text-align: center;
   text-shadow: 0.15rem 0.15rem 0.3rem #C8C8C8;
   /* background-image: linear-gradient(#E6FAFF, #F0F0FF); */
@@ -122,8 +122,8 @@ body {
 
 #write h2 {
   text-align: center;
-  font-family: '方正宋黑简体';
-  font-size: 2.2rem;
+  font-size: 2rem;
+  line-height: 46px;
   margin: 2em 0;
   text-shadow: 0.12rem 0.12rem 0.3rem #C8C8C8;
   /* line-height: 46px;
@@ -140,34 +140,30 @@ h2:after {
 }
 
 #write h3 {
-  font-family: '方正宋黑简体';
-  font-size: 2rem;
+  font-size: 1.9rem;
   line-height: 42px;
   margin: 1.2em 0;
-  padding-left: 16px;
+  padding-left: 14px;
   border-left: 6px solid #AAB4FF;
   border-bottom: 2px solid #AAB4FF;
 }
 
 #write h4 {
-  font-family: '方正北魏楷书简体';
-  font-size: 1.9rem;
+  font-size: 1.8rem;
   line-height: 38px;
   margin: 1.2em 0;
   border-bottom: 2px solid #E0BEFC;
 }
 
 #write h5 {
-  font-family: '今天我又想你啦';
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   line-height: 34px;
   margin: 1.2em 0;
   border-bottom: 2px dashed #6EF0DC;
 }
 
 #write h6 {
-  font-family: '浅喜深爱';
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   line-height: 30px;
   margin: 1.2em 0;
 }
