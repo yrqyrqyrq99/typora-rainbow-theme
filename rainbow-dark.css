@@ -275,8 +275,8 @@ h2:after {
 /* 行内代码 */
 #write code,
 tt {
-  font-family: "JetBrains Mono NL", "Sarasa Fixed SC";
-  font-size: 0.98em;
+  font-family: "CommitMono Nerd Font", "霞鹜臻楷";
+  font-size: 0.9em;
   color: #32DCFF;
   background-color: rgba(70,60,80,0.8);
 }
@@ -374,7 +374,7 @@ span.md-def-name {
 
 #write pre.md-meta-block,
 #write pre.md-fences {
-  font-family: "JetBrains Mono NL", "Sarasa Fixed SC";
+  font-family: "CommitMono Nerd Font", "霞鹜臻楷";
   border-radius: 8px;
   background: var(--code-block-bg-color);
 }
@@ -384,8 +384,8 @@ code, .md-fences {
   padding: 0.5em;
   border-radius: 8px;
   margin: 2em 0;
-  font-family: "JetBrains Mono NL", "Sarasa Fixed SC";
-  font-size: 0.98em;
+  font-family: "CommitMono Nerd Font", "霞鹜臻楷";
+  font-size: 0.9em;
 }
 
 .md-fences {
@@ -423,7 +423,7 @@ code, .md-fences {
 
 /* C++ & HTML 头文件 */
 .cm-s-inner .cm-meta {
-  color: #96FFFF; /* 浅蓝 */
+  color: #FAF078; /* 黄色 */
 }
 
 /* 关键字 */
@@ -433,48 +433,48 @@ code, .md-fences {
 /* 包括 C++ 中的 if、else、return、const、new、delete，
    public、private、using namespace 等*/
 .cm-s-inner .cm-keyword {
-  color: #A096FF; /* 紫色 */
+  color: #BEB4FF; /* 紫色 */
 }
 
 /* 操作符 */
 /* 包括加减乘除、与或、左移右移等 */
 .cm-s-inner .cm-operator {
-  color: #A096FF; /* 紫色 */
+  color: #6EC8FF; /* 蓝色 */
 }
 
 /* 被声明的函数名 */
 /* 仅针对被声明的函数名，被调用的函数名属于 variable */
 .cm-s-inner .cm-def {
-  color: #5ABEFF; /* 蓝色 */
+  color: #6EC8FF; /* 蓝色 */
 }
 
 /* 变量名，包括调用时的函数名 */
 /* C++ 中的 NULL 和 Python 中的各种异常都是 variable */
 .cm-s-inner .cm-variable {
-  color: #F0F0DC; /* 米白 */
+  color: #E6E6D2; /* 米白 */
 }
 
 /* 目前我知道的只有 Python 中的 self 是 */
 .cm-s-inner .cm-variable-2 {
-  color: #FFAA46; /* 橙色 */
+  color: #FFAA5A; /* 橙色 */
   font-style: italic;
 }
 
 /* C++ 中的内置数据类型如 void、int 等 */
 .cm-s-inner .cm-variable-3,
 .cm-s-inner .cm-type {
-  color: #FF8CBE; /* 粉色 */
+  color: #FF8CD2; /* 粉色 */
 }
 
 /* 内建函数 */
 /* 如 Python 中的 print、iter、next 等 */
 .cm-s-inner .cm-builtin {
-  color: #FF8CBE; /* 粉色 */
+  color: #FF8CD2; /* 粉色 */
 }
 
 /* 数值 */
 .cm-s-inner .cm-number {
-  color: #FFAA46; /* 橙色 */
+  color: #FFAA5A; /* 橙色 */
 }
 
 /* 字符串 */
@@ -489,12 +489,12 @@ code, .md-fences {
 
 /* 注释 */
 .cm-s-inner .cm-comment {
-  color: #646E96; /* 灰色 */
+  color: #646E8C; /* 灰色 */
 }
 
 /* 目前只知道 C++ 中的 true 和 false 是 */
 .cm-s-inner .cm-atom {
-  color: #FAFAA0; /* 黄色 */
+  color: #FAF078; /* 黄色 */
 }
 
 /* Python 中的对象属性和方法。C++ 不支持 */
@@ -504,12 +504,12 @@ code, .md-fences {
 
 /* HTML 标签 */
 .cm-s-inner .cm-tag {
-  color: #FAFAA0; /* 黄色 */
+  color: #FAF078; /* 黄色 */
 }
 
 /* HTML 属性 */
 .cm-s-inner .cm-attribute {
-  color: #5ABEFF; /* 蓝色 */
+  color: #6EC8FF; /* 蓝色 */
 }
 
 /* 不知道是啥，还没遇到过 */
@@ -519,7 +519,7 @@ code, .md-fences {
 
 /* HTML 属性 */
 .cm-s-inner .cm-quote {
-  color: #FAFAA0; /* 黄色 */
+  color: #FAF078; /* 黄色 */
 }
 
 /* 语法错误 */
@@ -552,7 +552,7 @@ pre[lang='mermaid']
 }
 
 .sidebar-content-content {
-    font-size: 0.98rem;
+    font-size: 1rem;
 }
 
 

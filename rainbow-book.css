@@ -275,8 +275,8 @@ h2:after {
 /* 行内代码 */
 #write code,
 tt {
-  font-family: "JetBrains Mono NL", "Sarasa Fixed SC";
-  font-size: 0.98em;
+  font-family: "CommitMono Nerd Font", "霞鹜臻楷";
+  font-size: 0.9em;
   color: #8C6EFF;
   background-color: rgba(210,210,200,0.8);
 }
@@ -374,7 +374,7 @@ span.md-def-name {
 
 #write pre.md-meta-block,
 #write pre.md-fences {
-  font-family: "JetBrains Mono NL", "Sarasa Fixed SC";
+  font-family: "CommitMono Nerd Font", "霞鹜臻楷";
   border-radius: 8px;
   background: var(--code-block-bg-color);
 }
@@ -384,8 +384,8 @@ code, .md-fences {
   padding: 0.5em;
   border-radius: 8px;
   margin: 2em 0;
-  font-family: "JetBrains Mono NL", "Sarasa Fixed SC";
-  font-size: 0.98em;
+  font-family: "CommitMono Nerd Font", "霞鹜臻楷";
+  font-size: 0.9em;
 }
 
 .md-fences {
@@ -552,7 +552,7 @@ pre[lang='mermaid']
 }
 
 .sidebar-content-content {
-    font-size: 0.98rem;
+    font-size: 1rem;
 }
 
 
