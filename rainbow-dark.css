@@ -95,29 +95,14 @@ body {
   border-bottom: none !important;
 }
 
-#write h1:before,
-#write h1:after {
-    content: "";
-    display: block;
-    position: relative;
-    width: 50%;
-    margin: 1.2rem auto;
-}
-#write h1::before {
-  top: -1.2rem;
-  border-top: 2px solid #32AAFF;
-}
-#write h1::after {
-  top: 1.2rem;
-  border-bottom: 2px solid #6E6EFF;
-}
 #write h1 {
   /* margin: 1.2em 0; */
   font-size: 2rem;
   line-height: 48px;
   margin: 1.8rem auto 1.8rem;
   text-align: center;
-  text-shadow: 0.15rem 0.15rem 0.3rem #505050;
+  /* text-shadow: 0.12rem 0.12rem 0.3rem #C8C8C8; */
+  border-bottom: 2px solid #8C64FF; /* 紫色 */
 }
 
 #write h2 {
@@ -125,47 +110,38 @@ body {
   font-size: 1.9rem;
   line-height: 46px;
   margin: 1.5em 0;
-  text-shadow: 0.12rem 0.12rem 0.3rem #505050;
+  /* text-shadow: 0.1rem 0.1rem 0.3rem #C8C8C8; */
+  border-bottom: 2px solid #3C8CFF; /* 蓝色 */
   /* line-height: 46px;
   border-bottom: 2px solid #78D2FA; */
-}
-h2:after {
-  content: '';
-  /* height: 1px; */
-  width: 50%;
-  height: 2.4px;
-  display: block;
-  margin: 1em auto 1em;
-  border-bottom: 2px solid #46B4FF;
 }
 
 #write h3 {
   font-size: 1.8rem;
   line-height: 42px;
   margin: 1.1em 0;
-  padding-left: 14px;
-  border-left: 6px solid #8C96FF;
-  border-bottom: 2px solid #8C96FF;
+  border-bottom: 2px solid #14C878; /* 绿色 */
 }
 
 #write h4 {
   font-size: 1.7rem;
   line-height: 38px;
   margin: 1.1em 0;
-  border-bottom: 2px solid #CA8EFC;
+  border-bottom: 2px solid #FF783C; /* 橙色 */
 }
 
 #write h5 {
   font-size: 1.6rem;
   line-height: 34px;
   margin: 1.1em 0;
-  border-bottom: 2px dashed #6EE6D2;
+  border-bottom: 2px solid #F03C78; /* 粉色 */
 }
 
 #write h6 {
   font-size: 1.5rem;
   line-height: 30px;
   margin: 1.1em 0;
+  border-bottom: 2px solid #FAC828; /* 黄色 */
 }
 
 
@@ -277,7 +253,7 @@ h2:after {
 tt {
   font-family: "CommitMono Nerd Font", "霞鹜臻楷";
   font-size: 0.9em;
-  color: #32DCFF;
+  color: #FFC85A;
   background-color: rgba(70,60,80,0.8);
 }
 
@@ -300,7 +276,7 @@ tt {
   max-width: 100%;
   border-radius: 5px;
   /* box-shadow:0px 4px 12px #84A1A8; */
-  box-shadow: 0.12rem 0.12rem 0.3rem #3C3C3C;
+  box-shadow: 0.12rem 0.12rem 0.3rem #1E2846;
   border: 0px;
 }
 
@@ -423,7 +399,7 @@ code, .md-fences {
 
 /* C++ & HTML 头文件 */
 .cm-s-inner .cm-meta {
-  color: #FAF078; /* 黄色 */
+  color: #50FF64; /* 绿色 */
 }
 
 /* 关键字 */
@@ -433,58 +409,58 @@ code, .md-fences {
 /* 包括 C++ 中的 if、else、return、const、new、delete，
    public、private、using namespace 等*/
 .cm-s-inner .cm-keyword {
-  color: #BEB4FF; /* 紫色 */
+  color: #FA5A78; /* 红色 */
 }
 
 /* 操作符 */
 /* 包括加减乘除、与或、左移右移等 */
 .cm-s-inner .cm-operator {
-  color: #6EC8FF; /* 蓝色 */
+  color: #FADC78; /* 黄色 */
 }
 
 /* 被声明的函数名 */
 /* 仅针对被声明的函数名，被调用的函数名属于 variable */
 .cm-s-inner .cm-def {
-  color: #6EC8FF; /* 蓝色 */
+  color: #FADC78; /* 黄色 */
 }
 
 /* 变量名，包括调用时的函数名 */
 /* C++ 中的 NULL 和 Python 中的各种异常都是 variable */
 .cm-s-inner .cm-variable {
-  color: #E6E6D2; /* 米白 */
+  color: #F8F8F2; /* 米白 */
 }
 
 /* 目前我知道的只有 Python 中的 self 是 */
 .cm-s-inner .cm-variable-2 {
-  color: #FFAA5A; /* 橙色 */
+  color: #B496F0; /* 紫色 */
   font-style: italic;
 }
 
 /* C++ 中的内置数据类型如 void、int 等 */
 .cm-s-inner .cm-variable-3,
 .cm-s-inner .cm-type {
-  color: #FF8CD2; /* 粉色 */
+  color: #5AC8FF; /* 浅蓝 */
 }
 
 /* 内建函数 */
 /* 如 Python 中的 print、iter、next 等 */
 .cm-s-inner .cm-builtin {
-  color: #FF8CD2; /* 粉色 */
+  color: #FFA41E; /* 橙色 */
 }
 
 /* 数值 */
 .cm-s-inner .cm-number {
-  color: #FFAA5A; /* 橙色 */
+  color: #B496F0; /* 紫色 */
 }
 
 /* 字符串 */
 .cm-s-inner .cm-string {
-  color: #28FF8C; /* 绿色 */
+  color: #50FF64; /* 绿色 */
 }
 
 /* 不知道是啥，还没遇到过 */
 .cm-s-inner .cm-string-2 {
-  color: #F06E78;
+  color: #FADC78; /* 黄色 */
 }
 
 /* 注释 */
@@ -494,22 +470,22 @@ code, .md-fences {
 
 /* 目前只知道 C++ 中的 true 和 false 是 */
 .cm-s-inner .cm-atom {
-  color: #FAF078; /* 黄色 */
+  color: #FFA41E; /* 橙色 */
 }
 
 /* Python 中的对象属性和方法。C++ 不支持 */
 .cm-s-inner .cm-property {
-  color: #96FFFF; /* 浅蓝 */
+  color: #5AC8FF; /* 浅蓝 */
 }
 
 /* HTML 标签 */
 .cm-s-inner .cm-tag {
-  color: #FAF078; /* 黄色 */
+  color: #FFA41E; /* 橙色 */
 }
 
 /* HTML 属性 */
 .cm-s-inner .cm-attribute {
-  color: #6EC8FF; /* 蓝色 */
+  color: #F8F8F2; /* 米白 */
 }
 
 /* 不知道是啥，还没遇到过 */

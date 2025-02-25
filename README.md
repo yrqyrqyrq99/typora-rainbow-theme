@@ -2,7 +2,7 @@
 
 <br>
 
-> **Rainbow** is a suite of simple and colorful Typora themes for Chinese and English, inpired by [Maize](https://github.com/BEATREE/typora-maize-theme) and [Liquid](https://github.com/Fentaniao/Liquid)
+> **Rainbow** is a suite of simple and colorful Typora themes for Chinese and English, inpired by [Maize](https://github.com/BEATREE/typora-maize-theme) and [Liquid](https://github.com/Fentaniao/Liquid).
 
 <br>
 
@@ -15,6 +15,14 @@ Rainbow Themes has been updated with multicolor version. Welcome to download and
 <img src="img/00.jpg" style="zoom: 25%;" />
 
 <br>
+
+### Release 2025.02
+
+1. Simplify the header style.
+2. Modify the code block theme refer to [Monokai](https://monokai.pro/) to improve readability.
+3. Adjust the color of some text.
+
+<br/>
 
 <br>
 
