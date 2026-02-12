@@ -8,11 +8,7 @@
 
 <br>
 
-## Notice!
-
-Rainbow Themes has been updated with multicolor version. Welcome to download and enjoy them ✧(≖ ◡ ≖✿)
-
-<img src="img/00.jpg" style="zoom: 25%;" />
+## Release Note
 
 <br>
 
@@ -24,33 +20,39 @@ Rainbow Themes has been updated with multicolor version. Welcome to download and
 
 <br/>
 
+### Release 2026.02
+
+1. Modify the code block theme again to increase identifiability.
+
+<br/>
+
 <br>
 
 ## Screenshots
 
 <br>
 
-**Rainbow Book**
+### Rainbow
 
-<img src="img/Rainbow Book.jpg" style="zoom: 25%;" />
-
-<br>
-
-**Rainbow Light**
-
-<img src="img/Rainbow Light.jpg" style="zoom: 25%;" />
+<img src="img/Rainbow.jpg" style="zoom: 50%;" />
 
 <br>
 
-**Rainbow**
+### Rainbow Light
 
-<img src="img/Rainbow.jpg" style="zoom: 25%;" />
+<img src="img/Rainbow Light.jpg" style="zoom: 50%;" />
 
 <br>
 
-**Rainbow Dark**
+### Rainbow Book
 
-<img src="img/Rainbow Dark.jpg" style="zoom: 25%;" />
+<img src="img/Rainbow Book.jpg" style="zoom: 50%;" />
+
+<br>
+
+### Rainbow Dark
+
+<img src="img/Rainbow Dark.jpg" style="zoom: 50%;" />
 
 <br>
 

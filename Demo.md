@@ -56,25 +56,32 @@ Here is a Inline Formula: $y = a x^2 + b x + c$
 
 ### Code Block 代码块
 
-```c++
-#include <math.h>
-#include <stdio.h>
+```python
+from dataclasses import dataclass
 
-// Code Here
-int main()
-{
-    int n;
-    double x, s;
+@dataclass
+class User:
+    # User class: Contains 4 attributes and 2 methods
+    user_id: int
+    user_name: str
+    user_pwd: str
+    login_status: bool = False
 
-    while (~scanf("%lf%d", &x, &n))
-    {
-        for(s = 0.0; n--; x = sqrt(x))
-            s += x;
-        printf("%.2lf\n", s);
-    }
+    def login(self, password: str) -> bool:
+        if password == self.user_pwd:
+            self.login_status = True
+            print(f'{self.user_name} logged in successfully')
+            return True
+        else:
+            print('Login failed: Incorrect password')
+            return False
 
-    return 0;
-}
+    def logout(self) -> None:
+        self.login_status = False
+        print(f'{self.user_name} has logged out')
+
+if __name__ == '__main__':
+    cur_user = User(10001, 'Tom', '0000')
 ```
 
 
@@ -138,7 +145,7 @@ $$
 
 ### Hyperlink 超链接
 
-[Welcome to visit my Gitee repo!](https://gitee.com/yrqyrqyrq99/typora-rainbow-theme)
+[Welcome to visit my GitHub repo!](https://github.com/yrqyrqyrq99/typora-rainbow-theme)
 
 
 

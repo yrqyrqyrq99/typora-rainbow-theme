@@ -7,50 +7,61 @@
 
 /* 全局属性 */
 :root{
-  --bg-color:  #FFFFFF;                   /*change background*/
+  --bg-color: #FFFFFF;                    /*change background*/
   --text-color: #333333;                  /*change text color*/
   --md-char-color: #C7C5C5;               /*change color of meta characters like `*` in markdown*/
-  --meta-content-color: #5b808d;          /*change color of meta contents like image text or link address in markdown*/
+  --meta-content-color: #5B808D;          /*change color of meta contents like image text or link address in markdown*/
 
-  --primary-color: #428bca;               /*color of primary buttons*/
-  --primary-btn-border-color: #285e8e;
-  --primary-btn-text-color: #fff;
+  --primary-color: #428BCA;               /*color of primary buttons*/
+  --primary-btn-border-color: #285E8E;
+  --primary-btn-text-color: #FFF;
 
-  --window-border: 1px solid #eee;        /*border for sidebar, etc*/
+  --window-border: 1px solid #EEE;        /*border for sidebar, etc*/
 
-  --active-file-bg-color: #ecf6f2;        /*background color if list item in file tree or file list*/
-  --active-file-text-color:#202020;
+  --active-file-bg-color: #ECF6F2;        /*background color if list item in file tree or file list*/
+  --active-file-text-color: #202020;
   --active-file-border-color: #6B6B6B;
 
-  --table-head-color:#d9ede5;
-  --table-even-row-color:#f8fcfa;
-  --deep-theme-color: #4eb289;
+  --table-head-color: #D9EDE5;
+  --table-even-row-color: #F8FCFA;
+  --deep-theme-color: #4EB289;
   /* --code-block-bg-color: #303848; */
-  --code-block-bg-color: #F0F0FA;
+  --code-block-bg-color: #F5F5F5;
 
   --side-bar-bg-color: #F8F8F8;           /*change background of sidebar*/
   --item-hover-bg-color: rgba(229, 229, 229, 0.59); /*background of control items when hover, like menu in sidebar*/
   --item-hover-text-color: inherit;
   --monospace: monospace;                 /*monospace font for codes, fences*/
+
+  /* code theme */
+  --code-norm: #505050;
+  --code-gray: #BEBEC8;
+  --code-red: #F0465A;
+  --code-orange: #F09646;
+  --code-yellow: #3CD2D2; /* actually cyan */
+  --code-green: #32D21E;
+  --code-cyan: #BEC828; /* actually yellow */
+  --code-blue: #46A0F0;
+  --code-purple: #965AF0;
 }
 
 
 /* 选中的文字 */
 ::selection {
-  background:#B482D2;
-  color:white
+  background: #B482D2;
+  color: white
 }
 ::-moz-selection {
-  background:#B482D2;
-  color:white
+  background: #B482D2;
+  color: white
 }
 ::-webkit-selection {
-  background:#B482D2;
-  color:white
+  background: #B482D2;
+  color: white
 }
 
 body {
-  background-color: #FFFFFF;
+  background-color: var(--bg-color);
   font-family: '霞鹜臻楷';
   font-size: 19px;
   font-weight: normal;
@@ -64,7 +75,7 @@ body {
   font-size: 19px;
   text-align: left;
   letter-spacing: 0px;
-  font-family: "霞鹜臻楷";
+  font-family: '霞鹜臻楷';
 }
 
 
@@ -75,7 +86,7 @@ body {
   padding-bottom: 8px;
   margin: 0;
   line-height: 30px;
-  color: black;
+  color: var(--text-color);
 }
 
 
@@ -90,7 +101,7 @@ body {
   margin: 1em 0;
   padding: 0px;
   font-weight: bold;
-  color: black;
+  color: var(--text-color);
   text-decoration: none !important;
   border-bottom: none !important;
 }
@@ -151,7 +162,7 @@ body {
   margin-top: 2px;
   margin-bottom: 2px;
   padding-left: 40px;
-  color: black;
+  color: var(--text-color);
 }
 #write ul {
   list-style-type: circle;
@@ -242,7 +253,7 @@ body {
 #write mark {
   background-color: rgba(250,180,180,0.6);
   border-radius: 4px;
-  color: black;
+  color: var(--text-color);
   padding: 0 4px;
   margin: 0 2px;
 }
@@ -272,11 +283,10 @@ tt {
 #write img {
   display: block;
   margin: 0 auto;
-  width: 90%;
-  max-width: 100%;
+  width: auto;
+  max-width: 90%;
   border-radius: 5px;
-  /* box-shadow:0px 4px 12px #84A1A8; */
-  box-shadow: 0.12rem 0.12rem 0.3rem #BBBBBB;
+  box-shadow: 0px 4px 12px #BBBBBB;
   border: 0px;
 }
 
@@ -284,7 +294,7 @@ tt {
 /* 表格 */
 #write table tr {
   border: 0;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #CCC;
   background-color: white;
 }
 #write table tr:nth-child(2n) {
@@ -294,13 +304,13 @@ tt {
 #write table tr td {
   font-size: 18px;
   line-height: 1.5;
-  border: 1px solid #ccc;
+  border: 1px solid #CCC;
   padding: 5px 10px;
   text-align: left;
 }
 #write table tr th {
   font-weight: bold;
-  background-color: #f0f0f0; /* 标题行 */
+  background-color: #F0F0F0; /* 标题行 */
 }
 
 
@@ -331,10 +341,10 @@ span.md-def-name {
 }
 #write .md-def-name:before {
   content: '[';
-  color: #000;
+  color: var(--text-color);
 }
 #write .md-def-name:after {
-  color: #000;
+  color: var(--text-color);
 }
 
 
@@ -398,104 +408,100 @@ code, .md-fences {
 }
 
 /* C++ & HTML 头文件 */
+/* Java & Python 装饰器 */
 .cm-s-inner .cm-meta {
-  color: #14D250; /* 绿色 */
+  color: var(--code-yellow);
 }
 
 /* 关键字 */
-/* 包括 Python 中的各种数据类型（如 int、str），
-   以及 if、else、def、class、return、raise、is、not，
-   常量 True、False、None 等 */
-/* 包括 C++ 中的 if、else、return、const、new、delete，
-   public、private、using namespace 等*/
 .cm-s-inner .cm-keyword {
-  color: #F02878; /* 红色 */
+  color: var(--code-red);
 }
 
 /* 操作符 */
 /* 包括加减乘除、与或、左移右移等 */
 .cm-s-inner .cm-operator {
-  color: #14B4FA; /* 浅蓝 */
+  color: var(--code-yellow);
 }
 
-/* 被声明的函数名 */
-/* 仅针对被声明的函数名，被调用的函数名属于 variable */
+/* 被声明的函数名、类名 */
+/* 被调用的函数名属于 variable */
 .cm-s-inner .cm-def {
-  color: #14B4FA; /* 浅蓝 */
+  color: var(--code-blue);
 }
 
 /* 变量名，包括调用时的函数名 */
 /* C++ 中的 NULL 和 Python 中的各种异常都是 variable */
 .cm-s-inner .cm-variable {
-  color: #465A78; /* 黑色 */
+  color: var(--code-norm);
 }
 
 /* 目前我知道的只有 Python 中的 self 是 */
 .cm-s-inner .cm-variable-2 {
-  color: #B450F0; /* 紫色 */
+  color: var(--code-purple);
   font-style: italic;
 }
 
-/* C++ 中的内置数据类型如 void、int 等 */
+/* C++、Java 中的数据类型如 void、int 等 */
 .cm-s-inner .cm-variable-3,
 .cm-s-inner .cm-type {
-  color: #5078F0; /* 蓝色 */
+  color: var(--code-purple);
 }
 
 /* 内建函数 */
-/* 如 Python 中的 print、iter、next 等 */
+/* Python 中的 print、iter、next 等 */
 .cm-s-inner .cm-builtin {
-  color: #F08228; /* 橙色 */
+  color: var(--code-orange);
 }
 
 /* 数值 */
 .cm-s-inner .cm-number {
-  color: #B450F0; /* 紫色 */
+  color: var(--code-purple);
 }
 
 /* 字符串 */
 .cm-s-inner .cm-string {
-  color: #14D250; /* 绿色 */
+  color: var(--code-green);
 }
 
-/* 不知道是啥，还没遇到过 */
+/* 目前只知道 JS 中反引号字符串是 */
 .cm-s-inner .cm-string-2 {
-  color: #F06E78;
+  color: var(--code-orange);
 }
 
 /* 注释 */
 .cm-s-inner .cm-comment {
-  color: #A0B4DC; /* 灰色 */
+  color: var(--code-gray);
 }
 
 /* 目前只知道 C++ 中的 true 和 false 是 */
 .cm-s-inner .cm-atom {
-  color: #F08228; /* 橙色 */
+  color: var(--code-purple);
 }
 
-/* Python 中的对象属性和方法。C++ 不支持 */
+/* Python 中的对象属性和方法。C++、Java 不支持 */
 .cm-s-inner .cm-property {
-  color: #5078F0; /* 蓝色 */
+  color: var(--code-blue);
 }
 
 /* HTML 标签 */
 .cm-s-inner .cm-tag {
-  color: #F08228; /* 橙色 */
+  color: var(--code-orange);
 }
 
 /* HTML 属性 */
 .cm-s-inner .cm-attribute {
-  color: #465A78; /* 黑色 */
+  color: var(--code-norm);
 }
 
-/* 不知道是啥，还没遇到过 */
+/* HTML 类选择器 */
 .cm-s-inner .cm-qualifier {
-  color: #F0F0FA;
+  color: var(--code-cyan);
 }
 
-/* HTML 属性 */
+/* HTML ID 与标签选择器 */
 .cm-s-inner .cm-quote {
-  color: #14B4FA; /* 浅蓝 */
+  color: var(--code-yellow);
 }
 
 /* 语法错误 */
