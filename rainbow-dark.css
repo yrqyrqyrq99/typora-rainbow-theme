@@ -25,7 +25,6 @@
   --table-head-color: #D9EDE5;
   --table-even-row-color: #F8FCFA;
   --deep-theme-color: #4EB289;
-  /* --code-block-bg-color: #303848; */
   --code-block-bg-color: #323C50;
 
   --side-bar-bg-color: #323C50;           /*change background of sidebar*/
@@ -264,7 +263,7 @@ body {
 tt {
   font-family: "CommitMono Nerd Font", "霞鹜臻楷";
   font-size: 0.9em;
-  color: #FFC85A;
+  color: #5AFFAA;
   background-color: rgba(70,60,80,0.8);
 }
 
@@ -294,7 +293,7 @@ tt {
 /* 表格 */
 #write table tr {
   border: 0;
-  border-top: 1px solid #323C50;
+  border-top: 1px solid #3C465A;
   background-color: #323C50;
 }
 #write table tr:nth-child(2n) {
@@ -304,13 +303,13 @@ tt {
 #write table tr td {
   font-size: 18px;
   line-height: 1.5;
-  border: 1px solid #283246;
+  border: 1px solid #3C465A;
   padding: 5px 10px;
   text-align: left;
 }
 #write table tr th {
   font-weight: bold;
-  background-color: #243040; /* 标题行 */
+  background-color: #28323C; /* 标题行 */
 }
 
 

@@ -25,7 +25,6 @@
   --table-head-color: #D9EDE5;
   --table-even-row-color: #F8FCFA;
   --deep-theme-color: #4EB289;
-  /* --code-block-bg-color: #303848; */
   --code-block-bg-color: #F5F5F5;
 
   --side-bar-bg-color: #F8F8F8;           /*change background of sidebar*/
@@ -35,13 +34,13 @@
 
   /* code theme */
   --code-norm: #505050;
-  --code-gray: #BEBEC8;
-  --code-red: #F0465A;
-  --code-orange: #F09646;
-  --code-yellow: #3CD2D2; /* actually cyan */
-  --code-green: #32D21E;
-  --code-cyan: #BEC828; /* actually yellow */
-  --code-blue: #46A0F0;
+  --code-gray: #B4B4BE;
+  --code-red: #E6465A;
+  --code-orange: #E6A046;
+  --code-yellow: #B4D23C;
+  --code-green: #3CD23C;
+  --code-cyan: #3CD2DC;
+  --code-blue: #4696F0;
   --code-purple: #965AF0;
 }
 
@@ -264,8 +263,8 @@ body {
 tt {
   font-family: "CommitMono Nerd Font", "霞鹜臻楷";
   font-size: 0.9em;
-  color: #FF5AA0;
-  background-color: rgba(230,230,250,0.8);
+  color: #BE5AFA;
+  background-color: rgba(235,235,235,0.8);
 }
 
 #write p code,
@@ -410,7 +409,7 @@ code, .md-fences {
 /* C++ & HTML 头文件 */
 /* Java & Python 装饰器 */
 .cm-s-inner .cm-meta {
-  color: var(--code-yellow);
+  color: var(--code-cyan);
 }
 
 /* 关键字 */
@@ -421,7 +420,7 @@ code, .md-fences {
 /* 操作符 */
 /* 包括加减乘除、与或、左移右移等 */
 .cm-s-inner .cm-operator {
-  color: var(--code-yellow);
+  color: var(--code-cyan);
 }
 
 /* 被声明的函数名、类名 */
@@ -501,7 +500,7 @@ code, .md-fences {
 
 /* HTML ID 与标签选择器 */
 .cm-s-inner .cm-quote {
-  color: var(--code-yellow);
+  color: var(--code-cyan);
 }
 
 /* 语法错误 */

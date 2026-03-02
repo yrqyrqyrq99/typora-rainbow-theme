@@ -1,22 +1,22 @@
 # Typora Rainbow Themes
 
-<br>
+<br/>
 
 > **Rainbow** is a suite of simple and colorful Typora themes for Chinese and English, inpired by [Maize](https://github.com/BEATREE/typora-maize-theme) and [Liquid](https://github.com/Fentaniao/Liquid).
 
-<br>
+<br/>
 
-<br>
+<br/>
 
 ## Release Note
 
-<br>
+<br/>
 
 ### Release 2025.02
 
 1. Simplify the header style.
 2. Modify the code block theme refer to [Monokai](https://monokai.pro/) to improve readability.
-3. Adjust the color of some text.
+3. Adjust the colors of some text.
 
 <br/>
 
@@ -26,51 +26,58 @@
 
 <br/>
 
-<br>
+### Release 2026.03
+
+1. Modify the code block theme again (and again) to increase identifiability.
+2. Slightly adjust the colors of other parts.
+
+<br/>
+
+<br/>
+
+## How to use
+
+    1. Download and install the required fonts [CommitMono Nerd Font](https://github.com/ryanoasis/nerd-fonts) and [LXGW ZhenKai](https://github.com/lxgw/LxgwZhenKai).
+
+    2. Pick a color theme you like and download the corresponding CSS file.
+
+    3. Open Typora → **File** → **Preference** → **Appearance** → Click `Open Theme Folder` button.
+
+    4. Put the CSS files into the opened folder.
+
+    5. Restart your Typora, then click **Themes** to choose Rainbow.
+
+<br/>
+
+<br/>
 
 ## Screenshots
 
-<br>
+<br/>
 
 ### Rainbow
 
 <img src="img/Rainbow.jpg" style="zoom: 50%;" />
 
-<br>
+<br/>
 
 ### Rainbow Light
 
 <img src="img/Rainbow Light.jpg" style="zoom: 50%;" />
 
-<br>
+<br/>
 
 ### Rainbow Book
 
 <img src="img/Rainbow Book.jpg" style="zoom: 50%;" />
 
-<br>
+<br/>
 
 ### Rainbow Dark
 
 <img src="img/Rainbow Dark.jpg" style="zoom: 50%;" />
 
-<br>
-
-<br>
-
-## How to use
-
-  1. Download and install the required fonts [CommitMono Nerd Font](https://github.com/ryanoasis/nerd-fonts) and [LXGW ZhenKai](https://github.com/lxgw/LxgwZhenKai).
-
-  2. Pick a color theme you like and download the corresponding CSS file.
-
-  3. Open Typora → **File** → **Preference** → **Appearance** → Click `Open Theme Folder` button.
-
-  4. Put the CSS files into the opened folder.
-
-  5. Restart your Typora, then click **Themes** to choose Rainbow.
-
-<br>
+<br/>
 
 <br/>
 
