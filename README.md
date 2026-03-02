@@ -37,15 +37,11 @@
 
 ## How to use
 
-    1. Download and install the required fonts [CommitMono Nerd Font](https://github.com/ryanoasis/nerd-fonts) and [LXGW ZhenKai](https://github.com/lxgw/LxgwZhenKai).
-
-    2. Pick a color theme you like and download the corresponding CSS file.
-
-    3. Open Typora → **File** → **Preference** → **Appearance** → Click `Open Theme Folder` button.
-
-    4. Put the CSS files into the opened folder.
-
-    5. Restart your Typora, then click **Themes** to choose Rainbow.
+1. Download and install the required fonts [CommitMono Nerd Font](https://github.com/ryanoasis/nerd-fonts) and [LXGW ZhenKai](https://github.com/lxgw/LxgwZhenKai).
+2. Pick a color theme you like and download the corresponding CSS file.
+3. Open Typora → **File** → **Preference** → **Appearance** → Click `Open Theme Folder` button.
+4. Put the CSS files into the opened folder.
+5. Restart your Typora, then click **Themes** to choose Rainbow.
 
 <br/>
 
