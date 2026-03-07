@@ -33,15 +33,15 @@
   --monospace: monospace;                 /*monospace font for codes, fences*/
 
   /* code theme */
-  --code-norm: #464650;
-  --code-gray: #AAAABE;
-  --code-red: #DC3C50;
-  --code-orange: #DC963C;
-  --code-yellow: #AAC832;
-  --code-green: #32C832;
-  --code-cyan: #32C8D2;
-  --code-blue: #3C8CE6;
-  --code-purple: #8C50E6;
+  --code-norm: #3C3C46;
+  --code-gray: #A0A0B4;
+  --code-red: #D23246;
+  --code-orange: #D29632;
+  --code-yellow: #A0BE28;
+  --code-green: #28BE28;
+  --code-cyan: #28BEC8;
+  --code-blue: #3282DC;
+  --code-purple: #8246DC;
 }
 
 
@@ -263,7 +263,7 @@ body {
 tt {
   font-family: "CommitMono Nerd Font", "霞鹜臻楷";
   font-size: 0.9em;
-  color: #825AFF;
+  color: #7850F0;
   background-color: rgba(230,230,220,0.8);
 }
 
