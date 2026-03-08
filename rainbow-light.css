@@ -27,7 +27,7 @@
   --deep-theme-color: #4EB289;
   --code-block-bg-color: #F5F5F5;
 
-  --side-bar-bg-color: #F8F8F8;           /*change background of sidebar*/
+  --side-bar-bg-color: #F5F5F5;           /*change background of sidebar*/
   --item-hover-bg-color: rgba(229, 229, 229, 0.59); /*background of control items when hover, like menu in sidebar*/
   --item-hover-text-color: inherit;
   --monospace: monospace;                 /*monospace font for codes, fences*/
@@ -309,7 +309,7 @@ tt {
 }
 #write table tr th {
   font-weight: bold;
-  background-color: #F0F0F0; /* 标题行 */
+  background-color: #E6E6E6; /* 标题行 */
 }
 
 

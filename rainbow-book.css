@@ -7,7 +7,7 @@
 
 /* 全局属性 */
 :root{
-  --bg-color: #F6F8EC;                    /*change background*/
+  --bg-color: #FAFAF0;                    /*change background*/
   --text-color: #333333;                  /*change text color*/
   --md-char-color: #C7C5C5;               /*change color of meta characters like `*` in markdown*/
   --meta-content-color: #5B808D;          /*change color of meta contents like image text or link address in markdown*/
@@ -27,7 +27,7 @@
   --deep-theme-color: #4EB289;
   --code-block-bg-color: #F0F0E6;
 
-  --side-bar-bg-color: #EAEAE0;           /*change background of sidebar*/
+  --side-bar-bg-color: #F0F0E6;           /*change background of sidebar*/
   --item-hover-bg-color: rgba(229, 229, 229, 0.59); /*background of control items when hover, like menu in sidebar*/
   --item-hover-text-color: inherit;
   --monospace: monospace;                 /*monospace font for codes, fences*/
@@ -263,7 +263,7 @@ body {
 tt {
   font-family: "CommitMono Nerd Font", "霞鹜臻楷";
   font-size: 0.9em;
-  color: #7850F0;
+  color: #9650F0;
   background-color: rgba(230,230,220,0.8);
 }
 
@@ -294,10 +294,10 @@ tt {
 #write table tr {
   border: 0;
   border-top: 1px solid #CCC;
-  background-color: white;
+  background-color: #FFFFFA;
 }
 #write table tr:nth-child(2n) {
-  background-color: #F8F6EC;
+  background-color: #F6F6EC;
 }
 #write table tr th,
 #write table tr td {
@@ -309,7 +309,7 @@ tt {
 }
 #write table tr th {
   font-weight: bold;
-  background-color: var(--side-bar-bg-color); /* 标题行 */
+  background-color: #E6E6DC; /* 标题行 */
 }
 
 
