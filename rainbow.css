@@ -27,8 +27,8 @@
   --deep-theme-color: #4EB289;
   --code-block-bg-color: #323C50;
 
-  --side-bar-bg-color: #F8F8F8;           /*change background of sidebar*/
-  --item-hover-bg-color: rgba(229, 229, 229, 0.59); /*background of control items when hover, like menu in sidebar*/
+  --side-bar-bg-color: #F5F5F5;           /*change background of sidebar*/
+  --item-hover-bg-color: rgba(230, 230, 230, 0.6); /*background of control items when hover, like menu in sidebar*/
   --item-hover-text-color: inherit;
   --monospace: monospace;                 /*monospace font for codes, fences*/
 
@@ -47,15 +47,15 @@
 
 /* 选中的文字 */
 ::selection {
-  background: #B482D2;
+  background: rgba(100, 120, 220, 0.8);
   color: white
 }
 ::-moz-selection {
-  background: #B482D2;
+  background: rgba(100, 120, 220, 0.8);
   color: white
 }
 ::-webkit-selection {
-  background: #B482D2;
+  background: rgba(100, 120, 220, 0.8);
   color: white
 }
 
@@ -217,7 +217,7 @@ body {
   padding: 10px 10px 10px 20px;
   font-size: 18px;
   line-height: 30px;
-  background: #FFFCFA;
+  background: #FFFAF5;
   border-left: 5px solid #FFAA1E;
   border-radius: 8px;
   color: #6A737D;
@@ -294,10 +294,10 @@ tt {
 #write table tr {
   border: 0;
   border-top: 1px solid #CCC;
-  background-color: white;
+  background-color: var(--bg-color);
 }
 #write table tr:nth-child(2n) {
-  background-color: #F8F8F8;
+  background-color: var(--side-bar-bg-color);
 }
 #write table tr th,
 #write table tr td {
@@ -376,7 +376,7 @@ code, .md-fences {
 .md-fences {
   margin: 0.2em 0;
   background-color: var(--code-block-bg-color);
-  color: rgb(169,183,198);
+  color: rgb(170,180,200);
   /* font-size: 1.2em; */
   padding: 1em;
   padding-top: 1em;
@@ -384,6 +384,7 @@ code, .md-fences {
   text-shadow: none;
   /* box-shadow: 0px 4px 9px grey; */
 }
+
 .md-fences .code-tooltip {
   background-color: var(--code-block-bg-color);
 }
@@ -394,12 +395,21 @@ code, .md-fences {
   z-index: 5;
 }
 
-.cm-s-inner div.CodeMirror-selected {
-  background: rgba(112, 124, 180, 0.2);
-}
 .CodeMirror-code{
+  color: var(--code-blue);
   margin-left: 0px;
 }
+
+/* 1. 定义在代码块中选中内容的背景色 */
+#write .md-fences .cm-s-inner div.CodeMirror-selected {
+    background: rgba(100, 120, 220, 0.4) !important;
+}
+
+/* 2. 设置选中的代码块文本背景为透明 */
+#write .cm-s-inner .CodeMirror-selectedtext {
+    background: transparent !important;
+}
+
 .cm-s-inner .CodeMirror-gutters {
   background: var(--code-block-bg-color);
   border: none;
